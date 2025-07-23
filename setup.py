@@ -19,13 +19,11 @@ with open(version_file) as f:
 
 setup(
     name="pytrim",
-    version=version.get("__version__", "1.0.0"),
-    author="PyTrim Team",
-    author_email="contact@pytrim.dev",
+    version=version.get("__version__", "0.1.1"),
     description="Auto-detect and trim unused dependencies from Python projects",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pytrim/pytrim",
+    url="https://github.com/TrimTeam/PyTrim",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -33,8 +31,6 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.8",
-        "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
         "Programming Language :: Python :: 3.12",
@@ -42,7 +38,7 @@ setup(
         "Topic :: Software Development :: Quality Assurance",
         "Topic :: System :: Archiving :: Packaging",
     ],
-    python_requires=">=3.8",
+    python_requires=">=3.10",
     install_requires=[
         "tomli>=1.2.0;python_version<'3.11'",  # For TOML parsing in older Python versions
         "tqdm>=4.64.0",

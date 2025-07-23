@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pytrim"
-version = "0.1.0"
+version = "0.1.1"
 description = "Auto-detect and trim unused Python imports and dependencies"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -56,10 +56,9 @@ trim = "pytrim.cli:main"
 pytrim = "pytrim.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/pytrim/pytrim"
-Documentation = "https://pytrim.readthedocs.io/"
-Repository = "https://github.com/pytrim/pytrim.git"
-"Bug Reports" = "https://github.com/pytrim/pytrim/issues"
+Homepage = "https://github.com/TrimTeam/PyTrim"
+Repository = "https://github.com/TrimTeam/PyTrim.git"
+"Bug Reports" = "https://github.com/TrimTeam/PyTrim/issues"
 
 [tool.setuptools]
 packages = { find = { where = ["."], include = ["pytrim", "pytrim.*"] } }

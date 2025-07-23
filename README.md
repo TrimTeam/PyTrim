@@ -179,7 +179,7 @@ For development setup, contributing guidelines, and architecture details, see [D
 
 ## License
 
-X License - see [LICENSE](LICENSE) file for details.
+MIT License - see [LICENSE](LICENSE) file for details.
 
 ## Contributing
 
