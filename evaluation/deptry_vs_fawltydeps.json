@@ -1,0 +1,2563 @@
+[
+    {
+        "cta-observatory/ctapipe": [
+            "erfa"
+        ]
+    },
+    {
+        "tlsfuzzer/python-ecdsa": [
+            "setuptools",
+            "ecdsa"
+        ]
+    },
+    {
+        "eternnoir/pytelegrambotapi": [
+            "certifi"
+        ]
+    },
+    {
+        "arm-doe/pyart": [
+            "pyproj",
+            "h5py",
+            "pytz",
+            "pil"
+        ]
+    },
+    {
+        "asdf-format/asdf": [
+            "asdf"
+        ]
+    },
+    {
+        "clusterlabs/crmsh": [
+            "setuptools"
+        ]
+    },
+    {
+        "python-xlib/python-xlib": [
+            "pkg-resources"
+        ]
+    },
+    {
+        "juniper/jsnapy": [
+            "six",
+            "jinja2",
+            "yaml"
+        ]
+    },
+    {
+        "pymoca/pymoca": [
+            "pymoca"
+        ]
+    },
+    {
+        "rocky/python3-trepan": [
+            "-main-",
+            "setuptools"
+        ]
+    },
+    {
+        "unidata/siphon": [
+            "siphon"
+        ]
+    },
+    {
+        "kalaspuff/tomodachi": [
+            "codecov",
+            "types-aiobotocore",
+            "pytest",
+            "pytest-rerunfailures",
+            "multidict",
+            "pkg-resources",
+            "flake8-isort",
+            "types-tzlocal",
+            "mypy",
+            "isort",
+            "flake8-black",
+            "pytest-cov",
+            "types-protobuf",
+            "flake8-pyproject",
+            "pytest-xdist",
+            "flake8",
+            "types-setuptools",
+            "black",
+            "types-pytz"
+        ]
+    },
+    {
+        "androguard/androguard": [
+            "traitlets",
+            "prompt-toolkit"
+        ]
+    },
+    {
+        "piqueserver/piqueserver": [
+            "multidict"
+        ]
+    },
+    {
+        "expyriment/expyriment": [
+            "imageio-ffmpeg",
+            "moviepy",
+            "pil"
+        ]
+    },
+    {
+        "nordicsemiconductor/pc-nrfutil": [
+            "wrapt"
+        ]
+    },
+    {
+        "punch-cyber/stoq": [
+            "pkg-resources"
+        ]
+    },
+    {
+        "fresna/powerplantmatching": [
+            "cycler",
+            "bs4",
+            "six"
+        ]
+    },
+    {
+        "sulab/wikidataintegrator": [
+            "numpy",
+            "pkg-resources"
+        ]
+    },
+    {
+        "tailordev/watson": [
+            "dateutil"
+        ]
+    },
+    {
+        "hamcrest/pyhamcrest": [
+            "pyhamcrest"
+        ]
+    },
+    {
+        "onecodex/onecodex": [
+            "pydantic-core"
+        ]
+    },
+    {
+        "zalando-stups/pierone-cli": [
+            "click"
+        ]
+    },
+    {
+        "shaypal5/cachier": [
+            "cachier"
+        ]
+    },
+    {
+        "cartodb/carto-python": [
+            "pkg-resources"
+        ]
+    },
+    {
+        "alorence/django-modern-rpc": [
+            "asgiref",
+            "packaging"
+        ]
+    },
+    {
+        "twisted/treq": [
+            "cryptography",
+            "zope",
+            "treq",
+            "service-identity",
+            "openssl"
+        ]
+    },
+    {
+        "aio-libs/aiohttp-session": [
+            "-"
+        ]
+    },
+    {
+        "goldmann/docker-squash": [
+            "requests"
+        ]
+    },
+    {
+        "aio-libs/aiohttp-sse": [
+            "-"
+        ]
+    },
+    {
+        "cogu/autosar": [
+            "autosar"
+        ]
+    },
+    {
+        "dropbox/stone": [
+            "setuptools",
+            "pkg-resources"
+        ]
+    },
+    {
+        "infoportugal/wagtail-modeltranslation": [
+            "wheel",
+            "bumpversion",
+            "twine",
+            "bump2version",
+            "autopep8",
+            "modelcluster"
+        ]
+    },
+    {
+        "datadog/datadogpy": [
+            "urllib3"
+        ]
+    },
+    {
+        "dropbox/dropbox-sdk-python": [
+            "setuptools",
+            "urllib3",
+            "pkg-resources"
+        ]
+    },
+    {
+        "ckan/ckanext-harvest": [
+            "click",
+            "pkg-resources"
+        ]
+    },
+    {
+        "salsita/shishito": [
+            "pkg-resources"
+        ]
+    },
+    {
+        "tableau/tabpy": [
+            "openssl",
+            "sklearn",
+            "-"
+        ]
+    },
+    {
+        "bids-standard/pybids": [
+            "tomli",
+            "fsspec",
+            "pybids"
+        ]
+    },
+    {
+        "aio-libs/aiopg": [
+            "-[sa]"
+        ]
+    },
+    {
+        "nextdoor/kingpin": [
+            "botocore"
+        ]
+    },
+    {
+        "juniper/py-junos-eznc": [
+            "jnpr",
+            "setuptools",
+            "tomli"
+        ]
+    },
+    {
+        "pslmodels/og-core": [
+            "cloudpickle",
+            "mpl-toolkits",
+            "urllib3"
+        ]
+    },
+    {
+        "sethblack/python-seo-analyzer": [
+            "pydantic"
+        ]
+    },
+    {
+        "sys-bio/tellurium": [
+            "six",
+            "psutil"
+        ]
+    },
+    {
+        "smtg-ucl/galore": [
+            "packaging"
+        ]
+    },
+    {
+        "neutronx/django-markdownx": [
+            "pip"
+        ]
+    },
+    {
+        "bluesky/bluesky": [
+            "jsonschema",
+            "bluesky"
+        ]
+    },
+    {
+        "jaegertracing/jaeger-client-python": [
+            "setuptools",
+            "-"
+        ]
+    },
+    {
+        "gwpy/gwpy": [
+            "pytz",
+            "packaging"
+        ]
+    },
+    {
+        "napalm-automation-community/napalm-panos": [
+            "requests",
+            "urllib3",
+            "pkg-resources"
+        ]
+    },
+    {
+        "jupyter/kernel_gateway": [
+            "nbformat"
+        ]
+    },
+    {
+        "snok/django-auth-adfs": [
+            "djangorestframework",
+            "responses",
+            "mock",
+            "django-filter",
+            "coverage"
+        ]
+    },
+    {
+        "betterlife/betterlifepsi": [
+            "wtforms",
+            "raven",
+            "flask-sqlalchemy",
+            "flask-sslify",
+            "flask-admin",
+            "jinja2",
+            "eventlet",
+            "flask-restful",
+            "flask-babelex",
+            "flask-security",
+            "gunicorn",
+            "werkzeug",
+            "flask-login",
+            "cloudinary",
+            "markupsafe",
+            "flask",
+            "alembic",
+            "python-dotenv",
+            "flask-debugtoolbar",
+            "sqlalchemy",
+            "click",
+            "psycopg2",
+            "pypinyin",
+            "flask-migrate"
+        ]
+    },
+    {
+        "mhvk/baseband": [
+            "numpy"
+        ]
+    },
+    {
+        "open-cogsci/opensesame": [
+            "qtpy",
+            "scipy",
+            "qtawesome",
+            "json-tricks",
+            "psutil",
+            "certifi",
+            "datamatrix",
+            "opensesame-extensions",
+            "opensesame-plugins",
+            "pygments"
+        ]
+    },
+    {
+        "pytrainer/pytrainer": [
+            "numpy"
+        ]
+    },
+    {
+        "aksw/quitstore": [
+            "werkzeug",
+            "six",
+            "pyparsing"
+        ]
+    },
+    {
+        "thetisproject/thetis": [
+            "numpy",
+            "cftime"
+        ]
+    },
+    {
+        "dallinger/dallinger": [
+            "setuptools",
+            "dateutil"
+        ]
+    },
+    {
+        "spdx/tools-python": [
+            "boolean",
+            "spdx-tools"
+        ]
+    },
+    {
+        "copier-org/copier": [
+            "pydantic-core",
+            "prompt-toolkit"
+        ]
+    },
+    {
+        "exa-networks/exabgp": [
+            "-main-",
+            "exabgp"
+        ]
+    },
+    {
+        "wtforms/wtforms": [
+            "wtforms"
+        ]
+    },
+    {
+        "nipy/nibabel": [
+            "nibabel"
+        ]
+    },
+    {
+        "networktocode/pyntc": [
+            "textfsm"
+        ]
+    },
+    {
+        "weaveworks/grafanalib": [
+            "attr"
+        ]
+    },
+    {
+        "pydata/pandas-datareader": [
+            "test",
+            "numpy",
+            "dateutil"
+        ]
+    },
+    {
+        "pytrip/pytrip": [
+            "-[remote]",
+            "scipy",
+            "pylab",
+            "numpy",
+            "packaging",
+            "pkg-resources",
+            "pydicom",
+            "matplotlib"
+        ]
+    },
+    {
+        "sherpa/sherpa": [
+            "setuptools",
+            "stk",
+            "tomli",
+            "group"
+        ]
+    },
+    {
+        "aamalev/aiohttp_apiset": [
+            "yarl"
+        ]
+    },
+    {
+        "python-telegram-bot/python-telegram-bot": [
+            "python-telegram-bot"
+        ]
+    },
+    {
+        "darknessomi/musicbox": [
+            "flake8",
+            "pytest",
+            "black",
+            "mypy"
+        ]
+    },
+    {
+        "mozilla/pontoon": [
+            "graphene-django",
+            "google-cloud-core",
+            "python3-openid",
+            "pyasn1-modules",
+            "django-allauth",
+            "numpy",
+            "idna",
+            "proto-plus",
+            "jinja2",
+            "apscheduler",
+            "djangorestframework",
+            "django-notifications-hq",
+            "h11",
+            "django-jinja",
+            "beautifulsoup4",
+            "django-filter",
+            "text-unidecode",
+            "google-api-core",
+            "rpds-py",
+            "referencing",
+            "six",
+            "tzlocal",
+            "dj-database-url",
+            "cffi",
+            "kombu",
+            "jiter",
+            "python-dotenv",
+            "rsa",
+            "toml",
+            "celery",
+            "tabulate",
+            "click-repl",
+            "gitignorant",
+            "soupsieve",
+            "amqp",
+            "cryptography",
+            "oauthlib",
+            "django-dirtyfields",
+            "translate",
+            "django-csp",
+            "billiard",
+            "google-cloud-translate",
+            "rapidfuzz",
+            "joblib",
+            "sacrebleu",
+            "asgiref",
+            "vine",
+            "django-model-utils",
+            "translate-toolkit",
+            "aniso8601",
+            "anyio",
+            "httpcore",
+            "pyjwt",
+            "tzdata",
+            "raygun4py",
+            "jsonschema",
+            "webencodings",
+            "click",
+            "annotated-types",
+            "typing-extensions",
+            "certifi",
+            "moz-l10n",
+            "graphene",
+            "requests",
+            "newrelic",
+            "bleach",
+            "uhashring",
+            "pyasn1",
+            "google-auth",
+            "distro",
+            "openai",
+            "sniffio",
+            "click-plugins",
+            "graphql-core",
+            "googleapis-common-protos",
+            "promise",
+            "inflection",
+            "click-didyoumean",
+            "wcwidth",
+            "urllib3",
+            "django-bmemcached",
+            "psycopg2",
+            "django-guardian",
+            "django-ace",
+            "charset-normalizer",
+            "jsonpickle",
+            "cachetools",
+            "blinker",
+            "python-dateutil",
+            "requests-oauthlib",
+            "pytz",
+            "colorama",
+            "attrs",
+            "pycparser",
+            "grpcio-status",
+            "graphql-relay",
+            "fluent-syntax",
+            "drf-spectacular",
+            "whitenoise",
+            "django-pipeline",
+            "sacremoses",
+            "packaging",
+            "grpc-google-iam-v1",
+            "django",
+            "cwcwidth",
+            "markupsafe",
+            "pydantic-core",
+            "compare-locales",
+            "grpcio",
+            "httpx",
+            "defusedxml",
+            "tqdm",
+            "polib",
+            "iniparse",
+            "python-binary-memcached",
+            "prompt-toolkit",
+            "swapper",
+            "django-cors-headers",
+            "portalocker",
+            "uritemplate",
+            "gunicorn",
+            "lxml",
+            "jsonschema-specifications",
+            "pydantic",
+            "sqlparse",
+            "protobuf",
+            "regex",
+            "jsonfield",
+            "pyyaml"
+        ]
+    },
+    {
+        "pypa/auditwheel": [
+            "auditwheel"
+        ]
+    },
+    {
+        "morucci/repoxplorer": [
+            "pkg-resources"
+        ]
+    },
+    {
+        "opentok/opentok-python-sdk": [
+            "-",
+            "jwt"
+        ]
+    },
+    {
+        "bird-house/flyingpigeon": [
+            "werkzeug",
+            "owslib",
+            "requests"
+        ]
+    },
+    {
+        "qutech/qupulse": [
+            "doc",
+            "qupulse"
+        ]
+    },
+    {
+        "rdmorganiser/rdmo": [
+            "requests",
+            "rdmo"
+        ]
+    },
+    {
+        "jarun/buku": [
+            "click"
+        ]
+    },
+    {
+        "django-wiki/django-wiki": [
+            "wiki"
+        ]
+    },
+    {
+        "justinfx/fileseq": [
+            "fileseq"
+        ]
+    },
+    {
+        "trufont/trufont": [
+            "trufont",
+            "defconqt"
+        ]
+    },
+    {
+        "common-workflow-language/cwltool": [
+            "rich",
+            "setuptools",
+            "cachecontrol"
+        ]
+    },
+    {
+        "hdfgroup/hsds": [
+            "botocore",
+            "pkg-resources"
+        ]
+    },
+    {
+        "redhatqe/wrapanapi": [
+            "pytz",
+            "keystoneauth1",
+            "proto",
+            "yaml",
+            "iso8601",
+            "dateutil",
+            "httplib2",
+            "kubernetes"
+        ]
+    },
+    {
+        "mongoengine/flask-mongoengine": [
+            "jinja2",
+            "pymongo",
+            "werkzeug",
+            "bson"
+        ]
+    },
+    {
+        "cedadev/cf-checker": [
+            "cfchecker",
+            "past"
+        ]
+    },
+    {
+        "elastic/rally": [
+            "multidict",
+            "yarl"
+        ]
+    },
+    {
+        "23andme/yamale": [
+            "yaml"
+        ]
+    },
+    {
+        "koed00/django-q": [
+            "pytest",
+            "black",
+            "pkg-resources",
+            "pytest-django",
+            "sphinx",
+            "isort",
+            "pytest-cov"
+        ]
+    },
+    {
+        "pmeal/porespy": [
+            "porespy"
+        ]
+    },
+    {
+        "hfaran/slack-export-viewer": [
+            "jinja2"
+        ]
+    },
+    {
+        "pycqa/flake8-bugbear": [
+            "pycodestyle"
+        ]
+    },
+    {
+        "noripyt/django-cachalot": [
+            "asgiref"
+        ]
+    },
+    {
+        "adafruit/adafruit_circuitpython_register": [
+            "adafruit-bus-device",
+            "circuitpython-typing",
+            "busio",
+            "board"
+        ]
+    },
+    {
+        "streamlink/streamlink": [
+            "charset-normalizer",
+            "streamlink-cli",
+            "streamlink"
+        ]
+    },
+    {
+        "thalesgroup/pycryptoki": [
+            "pkg-resources"
+        ]
+    },
+    {
+        "circus-tent/circus": [
+            "setuptools",
+            "pkg-resources"
+        ]
+    },
+    {
+        "robotframework/seleniumlibrary": [
+            "seleniumlibrary"
+        ]
+    },
+    {
+        "booya-at/openglider": [
+            "setuptools"
+        ]
+    },
+    {
+        "ably/ably-python": [
+            "pep8-naming",
+            "pytest",
+            "pytest-xdist",
+            "flake8",
+            "tokenize-rt",
+            "mock",
+            "respx",
+            "async-case",
+            "pytest-cov",
+            "importlib-metadata",
+            "pytest-timeout"
+        ]
+    },
+    {
+        "20c/vaping": [
+            "pre-commit",
+            "pytest",
+            "tox",
+            "ctl",
+            "twine",
+            "ruff",
+            "pytest-filedata",
+            "vaping",
+            "tmpl",
+            "mypy",
+            "pyupgrade",
+            "click",
+            "pytest-cov",
+            "jinja2",
+            "coverage"
+        ]
+    },
+    {
+        "landlab/landlab": [
+            "tomli",
+            "packaging"
+        ]
+    },
+    {
+        "twitterdev/twitter-python-ads-sdk": [
+            "requests"
+        ]
+    },
+    {
+        "ewels/multiqc": [
+            "typing-extensions"
+        ]
+    },
+    {
+        "sdispater/cleo": [
+            "cleo"
+        ]
+    },
+    {
+        "pytroll/satpy": [
+            "scipy",
+            "pandas",
+            "pkg-resources",
+            "satpy",
+            "requests"
+        ]
+    },
+    {
+        "cinpla/exdir": [
+            "tomli",
+            "ruamel"
+        ]
+    },
+    {
+        "junzis/pymodes": [
+            "pytest",
+            "setuptools",
+            "codecov",
+            "flake8",
+            "pymodes",
+            "black",
+            "mypy",
+            "isort",
+            "pytest-cov"
+        ]
+    },
+    {
+        "materialsproject/fireworks": [
+            "-main-",
+            "numpy"
+        ]
+    },
+    {
+        "nexb/aboutcode-toolkit": [
+            "attributecode"
+        ]
+    },
+    {
+        "4dn-dcic/tibanna": [
+            "pytest",
+            "pytest-mock",
+            "flake8",
+            "sphinx-click",
+            "botocore-stubs",
+            "pytest-redis",
+            "dateutil",
+            "sphinx",
+            "pytest-parallel",
+            "pytest-cov",
+            "coverage",
+            "invoke",
+            "boto3-stubs"
+        ]
+    },
+    {
+        "aio-libs/aiohttp-devtools": [
+            "-main-",
+            "yarl"
+        ]
+    },
+    {
+        "googlefonts/glyphslib": [
+            "glyphslib"
+        ]
+    },
+    {
+        "petercorke/robotics-toolbox-python": [
+            "setuptools",
+            "colored",
+            "pil"
+        ]
+    },
+    {
+        "ktbyers/netmiko": [
+            "cryptography"
+        ]
+    },
+    {
+        "sphinx-gallery/sphinx-gallery": [
+            "docutils",
+            "pygments"
+        ]
+    },
+    {
+        "aio-libs/sockjs": [
+            "-[test]"
+        ]
+    },
+    {
+        "pytest-dev/pytest": [
+            "pytest",
+            "py",
+            "typing-extensions",
+            "-pytest"
+        ]
+    },
+    {
+        "oca/pylint-odoo": [
+            "astroid"
+        ]
+    },
+    {
+        "tilezen/vector-datasource": [
+            "jinja2"
+        ]
+    },
+    {
+        "fedora-infra/anitya": [
+            "types-python-dateutil",
+            "bandit",
+            "types-six",
+            "coverage",
+            "pytest",
+            "diff-cover",
+            "vcrpy",
+            "types-toml",
+            "types-mock",
+            "pkg-resources",
+            "sqlalchemy-schemadisplay",
+            "types-requests",
+            "mypy",
+            "mock",
+            "six",
+            "pytest-cov",
+            "requests-oauthlib",
+            "flake8",
+            "types-setuptools",
+            "black",
+            "sphinx",
+            "psycopg2-binary",
+            "requests",
+            "sphinxcontrib-httpdomain"
+        ]
+    },
+    {
+        "lovesegfault/beautysh": [
+            "pytest",
+            "flake8",
+            "black",
+            "pkg-resources",
+            "mypy",
+            "isort"
+        ]
+    },
+    {
+        "mbj4668/pyang": [
+            "pip",
+            "pkg-resources"
+        ]
+    },
+    {
+        "oemof/demandlib": [
+            "demandlib"
+        ]
+    },
+    {
+        "flav-io/flavio": [
+            "rundec",
+            "voluptuous"
+        ]
+    },
+    {
+        "instana/python-sensor": [
+            "packaging",
+            "wrapt",
+            "instana"
+        ]
+    },
+    {
+        "oasis-open/cti-stix-validator": [
+            "-",
+            "referencing",
+            "stix2patterns",
+            "dateutil"
+        ]
+    },
+    {
+        "edx/edx-proctoring": [
+            "simple-history",
+            "webpack-loader",
+            "waffle",
+            "edx-rest-api-client",
+            "edx-django-utils",
+            "django",
+            "jwt",
+            "cryptography",
+            "stevedore",
+            "rules",
+            "pytz",
+            "edx-rest-framework-extensions",
+            "eventtracking",
+            "cryptodome",
+            "opaque-keys",
+            "edx-when",
+            "model-utils",
+            "jsonfield",
+            "requests",
+            "rest-framework",
+            "crum"
+        ]
+    },
+    {
+        "lneuhaus/pyrpl": [
+            "six",
+            "nbformat"
+        ]
+    },
+    {
+        "django-getpaid/django-getpaid": [
+            "django"
+        ]
+    },
+    {
+        "ics-py/ics-py": [
+            "ics"
+        ]
+    },
+    {
+        "threat9/routersploit": [
+            "cryptography",
+            "urllib3",
+            "pkg-resources"
+        ]
+    },
+    {
+        "automl/configspace": [
+            "configspace"
+        ]
+    },
+    {
+        "mandiant/flare-floss": [
+            "typing-extensions"
+        ]
+    },
+    {
+        "jamesoff/simplemonitor": [
+            "botocore",
+            "oauthlib",
+            "markupsafe"
+        ]
+    },
+    {
+        "byt3bl33d3r/crackmapexec": [
+            "msldap",
+            "pyasn1",
+            "cryptodome",
+            "urllib3",
+            "librlers",
+            "six",
+            "asysocks",
+            "openssl",
+            "ldap3",
+            "dns"
+        ]
+    },
+    {
+        "quatrope/astroalign": [
+            "sep"
+        ]
+    },
+    {
+        "jazzband/django-silk": [
+            "pkg-resources"
+        ]
+    },
+    {
+        "freakboy3742/pyxero": [
+            "oauthlib",
+            "xero"
+        ]
+    },
+    {
+        "gridsync/gridsync": [
+            "zope",
+            "pip"
+        ]
+    },
+    {
+        "flasgger/flasgger": [
+            "markupsafe",
+            "pkg-resources",
+            "flasgger-package",
+            "click",
+            "-"
+        ]
+    },
+    {
+        "ellmetha/django-machina": [
+            "pytest",
+            "django-debug-toolbar",
+            "pytest-xdist",
+            "flake8",
+            "faker",
+            "whoosh",
+            "pytest-django",
+            "sphinx",
+            "factory-boy",
+            "mock",
+            "ipython",
+            "sphinx-rtd-theme",
+            "isort",
+            "pytest-cov",
+            "pytest-spec",
+            "pytest-pythonpath"
+        ]
+    },
+    {
+        "clinical-genomics/scout": [
+            "markupsafe",
+            "pydantic-core",
+            "google",
+            "six",
+            "ldap3",
+            "typing-extensions",
+            "requests"
+        ]
+    },
+    {
+        "securityinnovation/pgpy": [
+            "setuptools"
+        ]
+    },
+    {
+        "mwaskom/seaborn": [
+            "cycler",
+            "pil"
+        ]
+    },
+    {
+        "gallopsled/pwntools": [
+            "six"
+        ]
+    },
+    {
+        "marshmallow-code/flask-smorest": [
+            "click",
+            "flask-smorest"
+        ]
+    },
+    {
+        "matlink/gplaycli": [
+            "requests",
+            "pkg-resources",
+            "google"
+        ]
+    },
+    {
+        "unioslo/zabbix-cli": [
+            "click",
+            "pydantic-core",
+            "docs"
+        ]
+    },
+    {
+        "lmfit/lmfit-py": [
+            "lmfit"
+        ]
+    },
+    {
+        "dmtf/python-redfish-library": [
+            "six",
+            "redfish"
+        ]
+    },
+    {
+        "common-workflow-language/cwltest": [
+            "rdflib",
+            "ruamel"
+        ]
+    },
+    {
+        "maxmind/geoip2-python": [
+            "geoip2"
+        ]
+    },
+    {
+        "veeresht/commpy": [
+            "setuptools"
+        ]
+    },
+    {
+        "rdflib/rdflib": [
+            "-main-",
+            "isodate"
+        ]
+    },
+    {
+        "pimutils/khal": [
+            "khal"
+        ]
+    },
+    {
+        "nutechsoftware/alarmdecoder": [
+            "setuptools",
+            "packaging",
+            "tomli"
+        ]
+    },
+    {
+        "samreay/chainconsumer": [
+            "chainconsumer"
+        ]
+    },
+    {
+        "geopandas/geopandas": [
+            "setuptools",
+            "tomli"
+        ]
+    },
+    {
+        "sobhe/hazm": [
+            "smart-open",
+            "packaging",
+            "tqdm"
+        ]
+    },
+    {
+        "pkkid/python-plexapi": [
+            "packaging"
+        ]
+    },
+    {
+        "bitcraze/crazyflie-lib-python": [
+            "pkg-resources"
+        ]
+    },
+    {
+        "bundlewrap/bundlewrap": [
+            "yaml",
+            "pkg-resources"
+        ]
+    },
+    {
+        "bbn-q/auspex": [
+            "ipython",
+            "auspex",
+            "nbsphinx",
+            "tornado"
+        ]
+    },
+    {
+        "bbn-q/qgl": [
+            "ipywidgets",
+            "ipython"
+        ]
+    },
+    {
+        "leancloud/python-sdk": [
+            "dateutil"
+        ]
+    },
+    {
+        "scitools/cartopy": [
+            "cartopy"
+        ]
+    },
+    {
+        "sendgrid/sendgrid-python": [
+            "werkzeug"
+        ]
+    },
+    {
+        "fireeye/flare-floss": [
+            "typing-extensions"
+        ]
+    },
+    {
+        "django-json-api/django-rest-framework-json-api": [
+            "-",
+            "rest-framework"
+        ]
+    },
+    {
+        "pypsa/atlite": [
+            "urllib3",
+            "dateutil"
+        ]
+    },
+    {
+        "silx-kit/fabio": [
+            "fabio",
+            "packaging"
+        ]
+    },
+    {
+        "sat-utils/sat-search": [
+            "requests"
+        ]
+    },
+    {
+        "planetlabs/planet-client-python": [
+            "planet"
+        ]
+    },
+    {
+        "spamscope/mail-parser": [
+            "mailparser"
+        ]
+    },
+    {
+        "gosecure/malboxes": [
+            "pkg-resources"
+        ]
+    },
+    {
+        "pycqa/pydocstyle": [
+            "pydocstyle"
+        ]
+    },
+    {
+        "jamielennox/requests-mock": [
+            "urllib3"
+        ]
+    },
+    {
+        "beemod/bee2.4": [
+            "event",
+            "ui-tk",
+            "error-server",
+            "exporting",
+            "utils",
+            "config",
+            "collisions",
+            "vrad",
+            "quote-pack",
+            "ipc-types",
+            "app",
+            "connections",
+            "packages",
+            "step-order",
+            "transtoken",
+            "corridor",
+            "perlin",
+            "plane",
+            "precomp",
+            "vbsp",
+            "editoritems",
+            "tree",
+            "postcomp",
+            "user-errors",
+            "editoritems-props",
+            "editoritems-vmf",
+            "consts",
+            "hammeraddons",
+            "bee2-config",
+            "fakezip",
+            "loadscreen"
+        ]
+    },
+    {
+        "magmax/python-inquirer": [
+            "pre-commit",
+            "pre-commit-hooks",
+            "flake8",
+            "bandit",
+            "safety",
+            "pyupgrade",
+            "sphinx-autobuild",
+            "pexpect",
+            "flake8-docstrings",
+            "isort",
+            "inquirer"
+        ]
+    },
+    {
+        "insarlab/mintpy": [
+            "mintpy",
+            "tqdm",
+            "pil"
+        ]
+    },
+    {
+        "jrkerns/pylinac": [
+            "typing-extensions"
+        ]
+    },
+    {
+        "django-helpdesk/django-helpdesk": [
+            "setuptools",
+            "pil"
+        ]
+    },
+    {
+        "bouke/django-two-factor-auth": [
+            "django-two-factor-auth"
+        ]
+    },
+    {
+        "translate/translate": [
+            "translate-toolkit"
+        ]
+    },
+    {
+        "wikimedia/revscoring": [
+            "pkg-resources"
+        ]
+    },
+    {
+        "arteria/cmsplugin-contact-plus": [
+            "django"
+        ]
+    },
+    {
+        "a10networks/acos-client": [
+            "urllib3"
+        ]
+    },
+    {
+        "saulpw/visidata": [
+            "setuptools"
+        ]
+    },
+    {
+        "viniciuschiele/flask-apscheduler": [
+            "werkzeug"
+        ]
+    },
+    {
+        "python-cmd2/cmd2": [
+            "rich"
+        ]
+    },
+    {
+        "jazzband/django-user-sessions": [
+            "pkg-resources"
+        ]
+    },
+    {
+        "wookayin/gpustat": [
+            "pynvml"
+        ]
+    },
+    {
+        "geopython/pywps": [
+            "referencing"
+        ]
+    },
+    {
+        "pypa/setuptools_scm": [
+            "setuptools-scm"
+        ]
+    },
+    {
+        "giuliorossetti/ndlib": [
+            "past"
+        ]
+    },
+    {
+        "kinto/kinto-signer": [
+            "pkg-resources"
+        ]
+    },
+    {
+        "altschool/dynamic-rest": [
+            "click",
+            "rest-framework",
+            "pkg-resources",
+            "inflection"
+        ]
+    },
+    {
+        "burnash/gspread": [
+            "requests"
+        ]
+    },
+    {
+        "clearlinux/autospec": [
+            "build"
+        ]
+    },
+    {
+        "getnikola/nikola": [
+            "markupsafe",
+            "pkg-resources"
+        ]
+    },
+    {
+        "playpauseandstop/rororo": [
+            "openapi-schema-validator",
+            "more-itertools",
+            "typing-extensions",
+            "rororo",
+            "yarl"
+        ]
+    },
+    {
+        "cclib/cclib": [
+            "cclib"
+        ]
+    },
+    {
+        "tethysplatform/tethys": [
+            "asgiref",
+            "click"
+        ]
+    },
+    {
+        "altair-viz/altair": [
+            "referencing",
+            "altair"
+        ]
+    },
+    {
+        "python-social-auth/social-core": [
+            "social-auth-core"
+        ]
+    },
+    {
+        "olofk/fusesoc": [
+            "okonomiyaki"
+        ]
+    },
+    {
+        "cloudve/cloudbridge": [
+            "\"-[dev]\""
+        ]
+    },
+    {
+        "bparzella/secsgem": [
+            "types-python-dateutil",
+            "sphinx-autodoc-typehints",
+            "types-pyserial",
+            "sphinxcontrib-plantuml",
+            "mypy",
+            "sphinx-autobuild",
+            "types-jsonschema",
+            "pytest-cov",
+            "jinja2",
+            "coverage",
+            "pytest",
+            "types-pyyaml",
+            "ruff",
+            "sphinx",
+            "pylint",
+            "sphinx-rtd-theme",
+            "myst-parser"
+        ]
+    },
+    {
+        "chaoss/grimoirelab-perceval": [
+            "flake8",
+            "httpretty",
+            "coverage"
+        ]
+    },
+    {
+        "wheatoncs/lexos": [
+            "markupsafe"
+        ]
+    },
+    {
+        "opendatacube/eo-datasets": [
+            "toolz",
+            "referencing",
+            "odc"
+        ]
+    },
+    {
+        "mvexel/overpass-api-python-wrapper": [
+            "numpy"
+        ]
+    },
+    {
+        "sumologic/sumologic-python-sdk": [
+            "urllib3"
+        ]
+    },
+    {
+        "rare-technologies/smart_open": [
+            "smart-open"
+        ]
+    },
+    {
+        "divio/divio-cli": [
+            "yaml"
+        ]
+    },
+    {
+        "pnuckowski/aioresponses": [
+            "multidict"
+        ]
+    },
+    {
+        "jazzband/prettytable": [
+            "prettytable"
+        ]
+    },
+    {
+        "gcovr/gcovr": [
+            "gcovr",
+            "markupsafe"
+        ]
+    },
+    {
+        "airspeed-velocity/asv": [
+            "asv"
+        ]
+    },
+    {
+        "ctpug/wafer": [
+            "reversion",
+            "rest-framework-extensions",
+            "bakery",
+            "registration",
+            "markitup",
+            "libravatar",
+            "crispy-forms",
+            "-",
+            "rest-framework"
+        ]
+    },
+    {
+        "alisw/alibuild": [
+            "botocore",
+            "pkg-resources"
+        ]
+    },
+    {
+        "home-assistant-ecosystem/home-assistant-cli": [
+            "zeroconf"
+        ]
+    },
+    {
+        "cowrie/cowrie": [
+            "zope",
+            "backend-pool",
+            "incremental",
+            "typing-extensions",
+            "cowrie"
+        ]
+    },
+    {
+        "adafruit/adafruit_circuitpython_busdevice": [
+            "digitalio",
+            "busio",
+            "circuitpython-typing",
+            "board"
+        ]
+    },
+    {
+        "tardis-sn/tardis": [
+            "packaging",
+            "pkg-resources"
+        ]
+    },
+    {
+        "rgalanakis/goless": [
+            "gevent",
+            "greenlet"
+        ]
+    },
+    {
+        "cokelaer/bioservices": [
+            "-main-",
+            "bioservices",
+            "pkg-resources"
+        ]
+    },
+    {
+        "scikit-optimize/scikit-optimize": [
+            "yaml",
+            "packaging"
+        ]
+    },
+    {
+        "thenetcircle/dino": [
+            "pkg-resources"
+        ]
+    },
+    {
+        "adrn/gala": [
+            "gala",
+            "packaging"
+        ]
+    },
+    {
+        "anaconda-platform/anaconda-client": [
+            "typer",
+            "conda-package-streaming",
+            "yaml",
+            "packaging",
+            "dateutil",
+            "click"
+        ]
+    },
+    {
+        "cloudtools/troposphere": [
+            "yaml"
+        ]
+    },
+    {
+        "googlefonts/fontmake": [
+            "fontmake"
+        ]
+    },
+    {
+        "robotools/fontparts": [
+            "fontparts",
+            "fontpens"
+        ]
+    },
+    {
+        "maurosoria/dirsearch": [
+            "typing-extensions"
+        ]
+    },
+    {
+        "googlefonts/cu2qu": [
+            "cu2qu"
+        ]
+    },
+    {
+        "identitypython/pysaml2": [
+            "saml2",
+            "saml2test"
+        ]
+    },
+    {
+        "kozea/radicale": [
+            "pkg-resources"
+        ]
+    },
+    {
+        "okpy/ok-client": [
+            "-main-"
+        ]
+    },
+    {
+        "fedora-infra/mote": [
+            "werkzeug",
+            "click"
+        ]
+    },
+    {
+        "onelogin/python3-saml": [
+            "onelogin",
+            "setuptools"
+        ]
+    },
+    {
+        "pmeal/openpnm": [
+            "-main-",
+            "skimage",
+            "-",
+            "mpl-toolkits"
+        ]
+    },
+    {
+        "napalm-automation/napalm": [
+            "six",
+            "py-junos-eznc",
+            "coveralls-python"
+        ]
+    },
+    {
+        "tarpas/pytest-testmon": [
+            "pluggy",
+            "pkg-resources"
+        ]
+    },
+    {
+        "holoviz/datashader": [
+            "dateutil"
+        ]
+    },
+    {
+        "hyperspy/hyperspy": [
+            "tlz",
+            "hyperspy",
+            "-main-"
+        ]
+    },
+    {
+        "psd-tools/psd-tools": [
+            "psd-tools"
+        ]
+    },
+    {
+        "seed-platform/seed": [
+            "lark",
+            "jellyfish",
+            "markdown",
+            "uwsgi",
+            "probablepeople",
+            "django-treebeard",
+            "django-celery-beat",
+            "xlsxwriter",
+            "seed-salesforce",
+            "celery",
+            "django",
+            "tkbl",
+            "hiredis",
+            "semantic-version",
+            "djangorestframework",
+            "shapely",
+            "boto3",
+            "brotli",
+            "django-ses",
+            "drf-nested-routers",
+            "sentry-sdk",
+            "buildingsync-asset-extractor",
+            "django-post-office",
+            "drf-yasg",
+            "importlib-metadata",
+            "django-filter",
+            "street-address",
+            "django-extensions",
+            "polling",
+            "pandas",
+            "pnnl-buildingid",
+            "django-model-utils",
+            "python-dateutil",
+            "djangorestframework-simplejwt",
+            "django-two-factor-auth",
+            "pytz",
+            "xmltodict",
+            "usaddress",
+            "pyotp",
+            "django-pint",
+            "geojson",
+            "xmlschema",
+            "django-redis",
+            "psycopg2-binary",
+            "django-compressor",
+            "requests",
+            "pyyaml",
+            "qrcode",
+            "xlrd"
+        ]
+    },
+    {
+        "scikit-learn-contrib/category_encoders": [
+            "pytest",
+            "pytest-subtests",
+            "ruff"
+        ]
+    },
+    {
+        "wradlib/wradlib": [
+            "pyproj",
+            "cycler"
+        ]
+    },
+    {
+        "openml/openml-python": [
+            "joblib",
+            "urllib3",
+            "typing-extensions"
+        ]
+    },
+    {
+        "h2non/pook": [
+            "pook"
+        ]
+    },
+    {
+        "tchellomello/python-amcrest": [
+            "amcrest"
+        ]
+    },
+    {
+        "hyperspy/hyperspyui": [
+            "rsciio",
+            "scipy",
+            "traitlets",
+            "numpy",
+            "skimage",
+            "ipython",
+            "jedi",
+            "pip",
+            "tqdm"
+        ]
+    },
+    {
+        "nci-gdc/gdcdictionary": [
+            "gdcdictionary"
+        ]
+    },
+    {
+        "parallelssh/parallel-ssh": [
+            "setuptools",
+            "tomli"
+        ]
+    },
+    {
+        "approvals/approvaltests.python": [
+            "requests"
+        ]
+    },
+    {
+        "django-ses/django-ses": [
+            "botocore"
+        ]
+    },
+    {
+        "soynatan/django-easy-audit": [
+            "asgiref"
+        ]
+    },
+    {
+        "salib/salib": [
+            "salib"
+        ]
+    },
+    {
+        "cpcloud/numbsql": [
+            "numpy"
+        ]
+    },
+    {
+        "simpeg/discretize": [
+            "discretize",
+            "packaging"
+        ]
+    },
+    {
+        "diyan/pywinrm": [
+            "cryptography",
+            "urllib3"
+        ]
+    },
+    {
+        "airbnb/knowledge-repo": [
+            "alembic",
+            "oauth2client",
+            "pkg-resources"
+        ]
+    },
+    {
+        "robotools/fontmath": [
+            "fontmath"
+        ]
+    },
+    {
+        "golemhq/golem": [
+            "werkzeug",
+            "pkg-resources",
+            "itsdangerous"
+        ]
+    },
+    {
+        "pulse2percept/pulse2percept": [
+            "imageio",
+            "pkg-resources"
+        ]
+    },
+    {
+        "the-useless-one/pywerview": [
+            "cryptodome"
+        ]
+    },
+    {
+        "pipitone/qbatch": [
+            "pkg-resources"
+        ]
+    },
+    {
+        "snowflakedb/snowflake-sqlalchemy": [
+            "tomlkit"
+        ]
+    },
+    {
+        "edx/repo-tools": [
+            "platformdirs",
+            "build",
+            "responses",
+            "execnet",
+            "idna",
+            "statistics",
+            "jinja2",
+            "moreorless",
+            "path-py",
+            "smmap",
+            "urllib3",
+            "gitpython",
+            "mccabe",
+            "gitdb",
+            "lockfile",
+            "lazy",
+            "text-unidecode",
+            "charset-normalizer",
+            "github3-py",
+            "cachetools",
+            "ruamel-yaml",
+            "edx-lint",
+            "six",
+            "msgpack",
+            "pylint-celery",
+            "code-annotations",
+            "cffi",
+            "python-dateutil",
+            "stevedore",
+            "colorama",
+            "attrs",
+            "pytest-xdist",
+            "virtualenv",
+            "requirements",
+            "chardet",
+            "pycparser",
+            "pylint",
+            "volatile",
+            "astroid",
+            "packaging",
+            "path",
+            "pylint-django",
+            "pylint-plugin-utils",
+            "cryptography",
+            "pytest",
+            "wheel",
+            "more-itertools",
+            "markupsafe",
+            "fissix",
+            "urlobject",
+            "pyproject-api",
+            "tqdm",
+            "pluggy",
+            "pytest-mock",
+            "pbr",
+            "docutils",
+            "pyproject-hooks",
+            "backports-csv",
+            "filelock",
+            "uritemplate",
+            "bowler",
+            "distlib",
+            "isort",
+            "pip-tools",
+            "tox",
+            "dill",
+            "python-slugify",
+            "pyjwt",
+            "cachecontrol",
+            "click-log",
+            "ruamel-yaml-clib",
+            "appdirs",
+            "certifi",
+            "iniconfig",
+            "pyyaml",
+            "tomlkit",
+            "pytest-logging"
+        ]
+    },
+    {
+        "nrel/openoa": [
+            "dateutil"
+        ]
+    },
+    {
+        "esgf/esgf-pyclient": [
+            "openssl"
+        ]
+    },
+    {
+        "thread/django-lightweight-queue": [
+            "flake8-commas",
+            "flake8-builtins",
+            "flake8-coding",
+            "flake8-mutable",
+            "flake8",
+            "flake8-pep3101",
+            "types-redis",
+            "flake8-comprehensions",
+            "mypy",
+            "flake8-bugbear",
+            "fakeredis",
+            "flake8-isort",
+            "flake8-tidy-imports",
+            "isort",
+            "flake8-debugger",
+            "types-freezegun",
+            "flake8-github-actions",
+            "freezegun"
+        ]
+    },
+    {
+        "pnx-si/taxhub": [
+            "config"
+        ]
+    },
+    {
+        "torchbox/wagtailmedia": [
+            "wagtailmedia",
+            "rest-framework",
+            "taggit"
+        ]
+    },
+    {
+        "kinto/kinto": [
+            "venusian",
+            "zope",
+            "webob",
+            "pkg-resources"
+        ]
+    },
+    {
+        "infobyte/faraday": [
+            "lxml",
+            "pytz",
+            "packaging",
+            "itsdangerous",
+            "jinja2"
+        ]
+    },
+    {
+        "frictionlessdata/frictionless-py": [
+            "rich"
+        ]
+    },
+    {
+        "jungmannlab/picasso": [
+            "joblib",
+            "dask",
+            "plotly",
+            "imageio",
+            "pil"
+        ]
+    },
+    {
+        "tmrowco/electricitymap-contrib": [
+            "electricitymap"
+        ]
+    },
+    {
+        "wwood/singlem": [
+            "dendropy",
+            "yaml",
+            "numpy",
+            "bird-tool-utils"
+        ]
+    },
+    {
+        "keeper-security/commander": [
+            "werkzeug",
+            "yaml",
+            "urllib3",
+            "certifi"
+        ]
+    },
+    {
+        "fmfn/bayesianoptimization": [
+            "packaging"
+        ]
+    },
+    {
+        "c0fec0de/anytree": [
+            "anytree"
+        ]
+    },
+    {
+        "sunscrapers/djoser": [
+            "social-core"
+        ]
+    },
+    {
+        "networktocode/ntc-templates": [
+            "mkdocs-python-classy",
+            "yamllint",
+            "flake8",
+            "bandit",
+            "ruamel-yaml",
+            "black",
+            "pydocstyle",
+            "pylint",
+            "click",
+            "sphinx-rtd-theme",
+            "pyyaml",
+            "toml",
+            "importlib-metadata",
+            "invoke",
+            "coverage"
+        ]
+    },
+    {
+        "ab-ce/abce": [
+            "-main-",
+            "setuptools",
+            "pkg-resources"
+        ]
+    },
+    {
+        "holoviz/holoviews": [
+            "requests",
+            "jinja2",
+            "pytz",
+            "pil"
+        ]
+    },
+    {
+        "pallets/flask-sqlalchemy": [
+            "werkzeug",
+            "setuptools",
+            "click"
+        ]
+    },
+    {
+        "stellarcn/py-stellar-base": [
+            "urllib3"
+        ]
+    },
+    {
+        "sdispater/pendulum": [
+            "pendulum"
+        ]
+    },
+    {
+        "pygae/clifford": [
+            "llvmlite"
+        ]
+    },
+    {
+        "sdss/marvin": [
+            "marvin"
+        ]
+    },
+    {
+        "ppb/pursuedpybear": [
+            "ppb"
+        ]
+    },
+    {
+        "jodal/pykka": [
+            "pykka"
+        ]
+    },
+    {
+        "jazzband/django-redshift-backend": [
+            "sqlparse"
+        ]
+    },
+    {
+        "icloud-photos-downloader/icloud_photos_downloader": [
+            "pyicloud-ipd",
+            "foundation",
+            "icloudpd"
+        ]
+    },
+    {
+        "googlefonts/pyfontaine": [
+            "-"
+        ]
+    },
+    {
+        "beeware/briefcase": [
+            "jinja2",
+            "automation",
+            "briefcase"
+        ]
+    },
+    {
+        "metomi/rose": [
+            "metomi-rose"
+        ]
+    },
+    {
+        "redhatqe/widgetastic.core": [
+            "widgetastic"
+        ]
+    },
+    {
+        "martyzz1/heroku3.py": [
+            "six"
+        ]
+    },
+    {
+        "nschloe/meshio": [
+            "meshio"
+        ]
+    },
+    {
+        "geospace-code/georinex": [
+            "pandas",
+            "georinex"
+        ]
+    },
+    {
+        "syncplay/syncplay": [
+            "shiboken2",
+            "setuptools",
+            "openssl"
+        ]
+    },
+    {
+        "browniebroke/deezer-python": [
+            "deezer"
+        ]
+    },
+    {
+        "pysat/pysat": [
+            "dateutil"
+        ]
+    },
+    {
+        "akretion/roulier": [
+            "typing-extensions",
+            "pil"
+        ]
+    },
+    {
+        "konstantinstadler/pymrio": [
+            "urllib3"
+        ]
+    },
+    {
+        "marketsquare/robotframework-requests": [
+            "requestslibrary"
+        ]
+    },
+    {
+        "docnow/twarc": [
+            "oauthlib",
+            "pkg-resources",
+            "configobj",
+            "six",
+            "requests"
+        ]
+    },
+    {
+        "rst2pdf/rst2pdf": [
+            "pil"
+        ]
+    },
+    {
+        "ess-dmsc/lewis": [
+            "lewis"
+        ]
+    },
+    {
+        "cuthbertlab/music21": [
+            "pil"
+        ]
+    },
+    {
+        "regionmask/regionmask": [
+            "affine",
+            "pandas"
+        ]
+    },
+    {
+        "sumpfork/dominiontabs": [
+            "domdiv"
+        ]
+    },
+    {
+        "python-escpos/python-escpos": [
+            "yaml",
+            "pil",
+            "escpos",
+            "-",
+            "barcode"
+        ]
+    },
+    {
+        "ccnmtl/django-pagetree": [
+            "treebeard"
+        ]
+    },
+    {
+        "meejah/txtorcon": [
+            "openssl"
+        ]
+    },
+    {
+        "fdemmer/django-weasyprint": [
+            "django-weasyprint"
+        ]
+    },
+    {
+        "globus/globus-cli": [
+            "globus-cli",
+            "jwt"
+        ]
+    },
+    {
+        "pytrip/pytripgui": [
+            "numpy",
+            "pkg-resources",
+            "paramiko"
+        ]
+    },
+    {
+        "cokelaer/spectrum": [
+            "pkg-resources",
+            "spectrum"
+        ]
+    },
+    {
+        "adafruit/adafruit_circuitpython_neopixel": [
+            "neopixel-write",
+            "board",
+            "adafruit-pixelbuf",
+            "rainbowio",
+            "digitalio",
+            "microcontroller"
+        ]
+    },
+    {
+        "kislyuk/watchtower": [
+            "botocore"
+        ]
+    },
+    {
+        "wechatpy/wechatpy": [
+            "pytest",
+            "pymemcache",
+            "redis",
+            "pytest-cov",
+            "httmock",
+            "coverage"
+        ]
+    },
+    {
+        "jag1g13/pycgtool": [
+            "pytest",
+            "vulture",
+            "tox",
+            "flake8",
+            "prospector",
+            "black",
+            "pkg-resources",
+            "pytest-cov",
+            "rstcheck"
+        ]
+    },
+    {
+        "insrapperswil/nuts": [
+            "tox",
+            "flake8",
+            "types-pyyaml",
+            "types-setuptools",
+            "types-toml",
+            "black",
+            "sphinx",
+            "mypy",
+            "pytest-cov"
+        ]
+    },
+    {
+        "pallets/werkzeug": [
+            "werkzeug",
+            "click",
+            "pkg-resources"
+        ]
+    },
+    {
+        "bitcraze/crazyflie-clients-python": [
+            "scipy",
+            "cfclient",
+            "cfzmq",
+            "cfloader",
+            "usb"
+        ]
+    },
+    {
+        "prometheus/client_python": [
+            "packaging"
+        ]
+    },
+    {
+        "jacebrowning/mine": [
+            "wrapt",
+            "pyinstaller",
+            "pydocstyle",
+            "pync",
+            "freezegun",
+            "pygments",
+            "pytest",
+            "pytest-describe",
+            "macfsevents",
+            "coveragespace",
+            "sniffer",
+            "mypy",
+            "isort",
+            "pytest-cov",
+            "types-setuptools",
+            "black",
+            "pytest-expecter",
+            "ipython",
+            "pylint",
+            "pytest-random"
+        ]
+    },
+    {
+        "relekang/python-semantic-release": [
+            "semantic-release",
+            "urllib3",
+            "typing-extensions"
+        ]
+    },
+    {
+        "googlefonts/ufo2ft": [
+            "ufo2ft"
+        ]
+    },
+    {
+        "xebuz/flask-validator": [
+            "sqlalchemy",
+            "flask"
+        ]
+    },
+    {
+        "metaodi/osmapi": [
+            "urllib3"
+        ]
+    },
+    {
+        "tmancal74/quantarhei": [
+            "gherkin",
+            "packaging",
+            "pkg-resources"
+        ]
+    },
+    {
+        "sosreport/sos": [
+            "pkg-resources"
+        ]
+    }
+]

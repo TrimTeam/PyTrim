@@ -1,0 +1,3309 @@
+[
+    {
+        "asyncee/django-easy-select2": [
+            "django"
+        ]
+    },
+    {
+        "peopledoc/django-agnocomplete": [
+            "requests",
+            "django"
+        ]
+    },
+    {
+        "iconfinder/pyvat": [
+            "requests",
+            "pycountry"
+        ]
+    },
+    {
+        "girder/large_image": [
+            "palettable",
+            "typing-extensions",
+            "cachetools",
+            "pillow",
+            "numpy"
+        ]
+    },
+    {
+        "python-smpplib/python-smpplib": [
+            "six"
+        ]
+    },
+    {
+        "jeltef/pylatex": [
+            "ordered-set"
+        ]
+    },
+    {
+        "ploxiln/fab-classic": [
+            "paramiko-ng"
+        ]
+    },
+    {
+        "naomiproject/naomi": [
+            "apscheduler",
+            "argparse",
+            "pytz",
+            "python-slugify",
+            "mock",
+            "pyyaml",
+            "requests"
+        ]
+    },
+    {
+        "gregreen/dustmaps": [
+            "progressbar2",
+            "healpy",
+            "scipy",
+            "astropy",
+            "numpy",
+            "six",
+            "h5py",
+            "requests",
+            "tqdm"
+        ]
+    },
+    {
+        "geodesign/django-raster": [
+            "boto3",
+            "pyparsing",
+            "celery",
+            "django",
+            "pillow",
+            "numpy",
+            "django-colorful"
+        ]
+    },
+    {
+        "bastibe/python-soundfile": [
+            "numpy",
+            "cffi",
+            "typing-extensions"
+        ]
+    },
+    {
+        "novnc/websockify": [
+            "requests",
+            "numpy",
+            "jwcrypto",
+            "redis"
+        ]
+    },
+    {
+        "aio-libs/aioredis-py": [
+            "typing-extensions",
+            "async-timeout"
+        ]
+    },
+    {
+        "twisted/axiom": [
+            "six",
+            "twisted",
+            "attrs",
+            "epsilon",
+            "txpasslib",
+            "argon2-cffi"
+        ]
+    },
+    {
+        "fedora-python/pyp2rpm": [
+            "jinja2",
+            "setuptools",
+            "click"
+        ]
+    },
+    {
+        "kennethreitz-archive/clint": [
+            "args"
+        ]
+    },
+    {
+        "rwth-ebc/teaser": [
+            "mako",
+            "pytest",
+            "pandas",
+            "numpy"
+        ]
+    },
+    {
+        "edx/auth-backends": [
+            "six",
+            "edx-toggles",
+            "social-auth-core",
+            "pyjwt",
+            "edx-django-utils",
+            "django",
+            "social-auth-app-django"
+        ]
+    },
+    {
+        "juanifioren/django-oidc-provider": [
+            "pyjwkest"
+        ]
+    },
+    {
+        "manolomartinez/greg": [
+            "requests",
+            "feedparser"
+        ]
+    },
+    {
+        "rallytools/rallyresttoolkitforpython": [
+            "requests"
+        ]
+    },
+    {
+        "pyqtgraph/pyqtgraph": [
+            "colorama",
+            "numpy"
+        ]
+    },
+    {
+        "nicolaslm/sauna": [
+            "docopt",
+            "pyyaml"
+        ]
+    },
+    {
+        "yeatmanlab/pyafq": [
+            "kaleido",
+            "setuptools-scm",
+            "joblib",
+            "pandas",
+            "numpy",
+            "pimms",
+            "popylar",
+            "imageio",
+            "funcargparse",
+            "pillow",
+            "s3bids",
+            "altair",
+            "s3fs",
+            "scikit-image",
+            "templateflow",
+            "pybids",
+            "boto3",
+            "dask",
+            "plotly",
+            "dipy",
+            "pydra",
+            "toml",
+            "matplotlib"
+        ]
+    },
+    {
+        "allankp/pytest-testrail": [
+            "requests",
+            "pytest"
+        ]
+    },
+    {
+        "cocotb/cocotb": [
+            "find-libpython"
+        ]
+    },
+    {
+        "nabla-c0d3/sslyze": [
+            "cryptography",
+            "tls-parser",
+            "nassl",
+            "pydantic"
+        ]
+    },
+    {
+        "pyspeckit/pyspeckit": [
+            "radio-beam",
+            "six",
+            "casa-formats-io",
+            "astropy",
+            "joblib",
+            "dask",
+            "numpy"
+        ]
+    },
+    {
+        "alex-rudakov/sphinx-argparse": [
+            "sphinx"
+        ]
+    },
+    {
+        "instaloader/instaloader": [
+            "requests"
+        ]
+    },
+    {
+        "matthewgilbert/pdblp": [
+            "pandas"
+        ]
+    },
+    {
+        "sripathikrishnan/redis-rdb-tools": [
+            "redis"
+        ]
+    },
+    {
+        "storaged-project/blivet": [
+            "pyudev"
+        ]
+    },
+    {
+        "modlinltd/django-advanced-filters": [
+            "simplejson"
+        ]
+    },
+    {
+        "scikit-learn-contrib/metric-learn": [
+            "scikit-learn",
+            "scipy",
+            "numpy"
+        ]
+    },
+    {
+        "comictagger/comictagger": [
+            "isocodes",
+            "text2digits",
+            "wordninja",
+            "pathvalidate",
+            "requests",
+            "pyrate-limiter",
+            "packaging",
+            "zipremove",
+            "pillow",
+            "settngs",
+            "natsort",
+            "chardet",
+            "comicfn2dict",
+            "pyicu",
+            "typing-extensions",
+            "appdirs",
+            "pyyaml",
+            "importlib-metadata",
+            "beautifulsoup4"
+        ]
+    },
+    {
+        "uqfoundation/pathos": [
+            "ppft",
+            "dill",
+            "multiprocess",
+            "pox"
+        ]
+    },
+    {
+        "drvinceknight/nashpy": [
+            "deprecated",
+            "networkx",
+            "numpy",
+            "scipy"
+        ]
+    },
+    {
+        "nchammas/flintrock": [
+            "click",
+            "boto3",
+            "botocore",
+            "pyyaml",
+            "paramiko"
+        ]
+    },
+    {
+        "theopolis/uefi-firmware-parser": [
+            "future"
+        ]
+    },
+    {
+        "pretenders/pretenders": [
+            "argparse",
+            "aiosmtpd",
+            "bottle"
+        ]
+    },
+    {
+        "renanivo/pytest-testdox": [
+            "pytest"
+        ]
+    },
+    {
+        "serhatbolsu/robotframework-appiumlibrary": [
+            "selenium",
+            "six",
+            "appium-python-client",
+            "kitchen",
+            "decorator",
+            "robotframework",
+            "docutils"
+        ]
+    },
+    {
+        "mongoengine/mongoengine": [
+            "pymongo"
+        ]
+    },
+    {
+        "teledynelecroy/signalintegrity": [
+            "setuptools",
+            "scipy",
+            "pip",
+            "pillow",
+            "urllib3",
+            "numpy",
+            "matplotlib"
+        ]
+    },
+    {
+        "althonos/instalooter": [
+            "verboselogs",
+            "coloredlogs",
+            "tenacity",
+            "six",
+            "fs",
+            "docopt",
+            "requests",
+            "python-dateutil",
+            "tqdm"
+        ]
+    },
+    {
+        "zerodha/pykiteconnect": [
+            "service-identity",
+            "six",
+            "requests",
+            "pyopenssl",
+            "python-dateutil",
+            "autobahn"
+        ]
+    },
+    {
+        "tableau/tabpy": [
+            "pytest",
+            "twisted",
+            "urllib3",
+            "mock",
+            "scikit-learn",
+            "coveralls",
+            "future",
+            "pytest-cov",
+            "pyopenssl",
+            "coverage",
+            "hypothesis"
+        ]
+    },
+    {
+        "wagtail/django-modelcluster": [
+            "django"
+        ]
+    },
+    {
+        "astropy/specutils": [
+            "asdf",
+            "scipy",
+            "astropy",
+            "gwcs",
+            "ndcube",
+            "numpy",
+            "asdf-astropy"
+        ]
+    },
+    {
+        "nengo/nengo-gui": [
+            "nengo"
+        ]
+    },
+    {
+        "pslmodels/og-core": [
+            "pip"
+        ]
+    },
+    {
+        "aio-libs/yarl": [
+            "idna",
+            "multidict",
+            "propcache"
+        ]
+    },
+    {
+        "google/apitools": [
+            "httplib2",
+            "six",
+            "oauth2client",
+            "fasteners"
+        ]
+    },
+    {
+        "smarr/rebench": [
+            "pyyaml",
+            "humanfriendly",
+            "py-cpuinfo",
+            "psutil",
+            "pykwalify"
+        ]
+    },
+    {
+        "certtools/intelmq": [
+            "dnspython",
+            "python-termstyle",
+            "requests",
+            "python-dateutil",
+            "ruamel-yaml",
+            "psutil",
+            "redis"
+        ]
+    },
+    {
+        "frictionlessdata/datapackage-py": [
+            "jsonpointer",
+            "chardet",
+            "dataflows-tabulator",
+            "jsonschema",
+            "six",
+            "click",
+            "requests",
+            "unicodecsv",
+            "tableschema"
+        ]
+    },
+    {
+        "mozilla/mozilla-django-oidc": [
+            "requests",
+            "cryptography",
+            "josepy",
+            "django"
+        ]
+    },
+    {
+        "librosa/librosa": [
+            "numba",
+            "pooch",
+            "scipy",
+            "lazy-loader",
+            "joblib",
+            "numpy",
+            "scikit-learn",
+            "msgpack",
+            "typing-extensions",
+            "soxr",
+            "audioread",
+            "soundfile",
+            "decorator"
+        ]
+    },
+    {
+        "bugsnag/bugsnag-python": [
+            "webob"
+        ]
+    },
+    {
+        "optimizely/python-sdk": [
+            "requests",
+            "jsonschema",
+            "idna",
+            "pyrsistent"
+        ]
+    },
+    {
+        "lowerquality/gentle": [
+            "twisted"
+        ]
+    },
+    {
+        "dateutil/dateutil": [
+            "six"
+        ]
+    },
+    {
+        "kklmn/xrt": [
+            "colorama",
+            "scipy",
+            "siphash24",
+            "pyopencl",
+            "distro",
+            "numpy",
+            "sphinx",
+            "pyopengl",
+            "matplotlib",
+            "sphinxcontrib-jquery"
+        ]
+    },
+    {
+        "mabuchilab/instrumental": [
+            "pint",
+            "scipy",
+            "numpy",
+            "future"
+        ]
+    },
+    {
+        "kevin1024/vcrpy": [
+            "pyyaml",
+            "urllib3",
+            "yarl",
+            "wrapt"
+        ]
+    },
+    {
+        "camptocamp/marabunta": [
+            "werkzeug",
+            "pexpect",
+            "psycopg2",
+            "future",
+            "ruamel-yaml"
+        ]
+    },
+    {
+        "adamalton/django-csp-reports": [
+            "django"
+        ]
+    },
+    {
+        "astropy/astroquery": [
+            "astropy",
+            "requests",
+            "beautifulsoup4",
+            "keyring",
+            "numpy",
+            "html5lib",
+            "pyvo"
+        ]
+    },
+    {
+        "alexanderfabisch/gmr": [
+            "scipy",
+            "numpy"
+        ]
+    },
+    {
+        "dmnfarrell/pandastable": [
+            "numexpr",
+            "pandas",
+            "future",
+            "matplotlib"
+        ]
+    },
+    {
+        "ccrisan/motioneye": [
+            "babel",
+            "boto3",
+            "tornado",
+            "jinja2",
+            "pillow",
+            "pycurl"
+        ]
+    },
+    {
+        "pallets-eco/flask-caching": [
+            "cachelib",
+            "flask"
+        ]
+    },
+    {
+        "dfm/emcee": [
+            "numpy"
+        ]
+    },
+    {
+        "spatialaudio/nbsphinx": [
+            "nbconvert",
+            "jinja2",
+            "docutils",
+            "traitlets",
+            "nbformat",
+            "sphinx"
+        ]
+    },
+    {
+        "mozillasecurity/grizzly": [
+            "fxpoppet",
+            "cryptography",
+            "fuzzmanager",
+            "ffpuppet",
+            "bugsy",
+            "jsbeautifier",
+            "aioquic",
+            "prefpicker",
+            "psutil",
+            "fasteners",
+            "cssbeautifier",
+            "lithium-reducer"
+        ]
+    },
+    {
+        "kyper-data/python-highcharts": [
+            "jinja2",
+            "future"
+        ]
+    },
+    {
+        "scrapinghub/shub": [
+            "setuptools",
+            "docker",
+            "packaging",
+            "click",
+            "pip",
+            "pyyaml",
+            "toml",
+            "requests",
+            "scrapinghub",
+            "tqdm",
+            "retrying"
+        ]
+    },
+    {
+        "sorgerlab/indra": [
+            "lxml",
+            "protmapper",
+            "objectpath",
+            "networkx",
+            "jinja2",
+            "pybiopax",
+            "pandas",
+            "ipython",
+            "obonet",
+            "ndex2",
+            "future",
+            "requests",
+            "tqdm",
+            "pysb"
+        ]
+    },
+    {
+        "edx/edx-lint": [
+            "six",
+            "click",
+            "pylint",
+            "pylint-celery",
+            "pylint-django",
+            "code-annotations",
+            "click-log"
+        ]
+    },
+    {
+        "buckket/twtxt": [
+            "humanize",
+            "python-dateutil",
+            "click",
+            "aiohttp"
+        ]
+    },
+    {
+        "easypost/easypost-python": [
+            "requests"
+        ]
+    },
+    {
+        "cog-creators/red-discordbot": [
+            "platformdirs",
+            "markdown",
+            "zstandard",
+            "distro",
+            "packaging",
+            "idna",
+            "aiohttp-json-rpc",
+            "propcache",
+            "schema",
+            "yarl",
+            "pygments",
+            "babel",
+            "aiohttp",
+            "multidict",
+            "brotli",
+            "apsw",
+            "async-timeout",
+            "rapidfuzz",
+            "discord-py",
+            "psutil",
+            "red-lavalink",
+            "six",
+            "rich",
+            "red-commons",
+            "python-dateutil",
+            "mdurl",
+            "attrs",
+            "markdown-it-py",
+            "frozenlist",
+            "uvloop",
+            "click",
+            "typing-extensions",
+            "pyyaml",
+            "orjson",
+            "aiosignal"
+        ]
+    },
+    {
+        "weaveworks/grafanalib": [
+            "attrs"
+        ]
+    },
+    {
+        "tuw-geo/ascat": [
+            "pytest-mpl",
+            "pandas",
+            "numpy",
+            "zarr",
+            "h5py",
+            "pyresample",
+            "pytest-cov",
+            "xarray",
+            "pygeogrids",
+            "pytest",
+            "shapely",
+            "netcdf4",
+            "flake8",
+            "dask",
+            "cadati",
+            "pykdtree",
+            "yapf",
+            "h5netcdf",
+            "fibgrid",
+            "tqdm"
+        ]
+    },
+    {
+        "zach-taylor/splunk_handler": [
+            "requests"
+        ]
+    },
+    {
+        "ekzhu/datasketch": [
+            "scipy",
+            "numpy"
+        ]
+    },
+    {
+        "pslmodels/tax-calculator": [
+            "numba",
+            "paramtools",
+            "pandas",
+            "numpy",
+            "bokeh"
+        ]
+    },
+    {
+        "convexengineering/gpkit": [
+            "scipy",
+            "adce",
+            "pint",
+            "plotly",
+            "matplotlib",
+            "numpy",
+            "cvxopt"
+        ]
+    },
+    {
+        "scikit-video/scikit-video": [
+            "pillow",
+            "numpy",
+            "scipy"
+        ]
+    },
+    {
+        "rare-technologies/gensim": [
+            "smart-open",
+            "scipy",
+            "numpy"
+        ]
+    },
+    {
+        "release-engineering/kobo": [
+            "six"
+        ]
+    },
+    {
+        "irods/python-irodsclient": [
+            "defusedxml",
+            "prettytable"
+        ]
+    },
+    {
+        "graphql-python/graphene-sqlalchemy": [
+            "promise",
+            "sqlalchemy",
+            "aiodataloader",
+            "graphene",
+            "packaging"
+        ]
+    },
+    {
+        "goshippo/shippo-python-client": [
+            "requests",
+            "chardet",
+            "simplejson"
+        ]
+    },
+    {
+        "odlgroup/odl": [
+            "setuptools",
+            "scipy",
+            "future",
+            "numpy",
+            "packaging"
+        ]
+    },
+    {
+        "flyingrub/scdl": [
+            "pathvalidate",
+            "mutagen",
+            "soundcloud-v2",
+            "docopt-ng",
+            "termcolor",
+            "filelock",
+            "typing-extensions",
+            "requests",
+            "tqdm"
+        ]
+    },
+    {
+        "opentok/opentok-python-sdk": [
+            "rsa",
+            "pyjwt"
+        ]
+    },
+    {
+        "posativ/isso": [
+            "werkzeug",
+            "setuptools",
+            "jinja2",
+            "misaka",
+            "bleach",
+            "html5lib",
+            "itsdangerous"
+        ]
+    },
+    {
+        "natlibfi/skosify": [
+            "rdflib"
+        ]
+    },
+    {
+        "robotframework/sshlibrary": [
+            "scp",
+            "robotframework",
+            "paramiko"
+        ]
+    },
+    {
+        "pre-commit/pre-commit-hooks": [
+            "tomli",
+            "ruamel-yaml"
+        ]
+    },
+    {
+        "pybel/pybel": [
+            "networkx",
+            "requests-file",
+            "humanize",
+            "bioregistry",
+            "pandas",
+            "bel-resources",
+            "click-plugins",
+            "ratelimit",
+            "more-itertools",
+            "jsonschema",
+            "sqlalchemy",
+            "pystow",
+            "click",
+            "pyparsing",
+            "psycopg2-binary",
+            "requests",
+            "tqdm",
+            "tabulate"
+        ]
+    },
+    {
+        "patonlab/goodvibes": [
+            "cclib",
+            "numpy"
+        ]
+    },
+    {
+        "scikit-tda/kepler-mapper": [
+            "jinja2",
+            "scikit-learn",
+            "scipy",
+            "numpy"
+        ]
+    },
+    {
+        "cedadev/cf-checker": [
+            "future"
+        ]
+    },
+    {
+        "23andme/yamale": [
+            "pyyaml"
+        ]
+    },
+    {
+        "fabfuel/ecs-deploy": [
+            "click",
+            "boto3",
+            "botocore",
+            "future",
+            "requests",
+            "dictdiffer",
+            "click-log"
+        ]
+    },
+    {
+        "marcharper/python-ternary": [
+            "matplotlib"
+        ]
+    },
+    {
+        "flask-restful/flask-restful": [
+            "aniso8601",
+            "pytz",
+            "six",
+            "flask"
+        ]
+    },
+    {
+        "adafruit/adafruit_circuitpython_register": [
+            "adafruit-circuitpython-busdevice",
+            "adafruit-circuitpython-typing",
+            "adafruit-blinka"
+        ]
+    },
+    {
+        "pslmodels/cost-of-capital-calculator": [
+            "paramtools",
+            "taxcalc",
+            "pandas",
+            "numpy",
+            "bokeh"
+        ]
+    },
+    {
+        "codecov/codecov-python": [
+            "requests",
+            "coverage"
+        ]
+    },
+    {
+        "aliyun/aliyun-oss-python-sdk": [
+            "six",
+            "aliyun-python-sdk-kms",
+            "aliyun-python-sdk-core",
+            "crcmod",
+            "requests",
+            "pycryptodome"
+        ]
+    },
+    {
+        "mkaz/termgraph": [
+            "colorama"
+        ]
+    },
+    {
+        "barttc/dpaste": [
+            "tox",
+            "pytest",
+            "mistune",
+            "jsx-lexer",
+            "ratelimiter",
+            "django-csp",
+            "docutils",
+            "django",
+            "pytest-django",
+            "django-staticinline",
+            "pytest-cov",
+            "dj-database-url",
+            "pygments"
+        ]
+    },
+    {
+        "holgern/pyedflib": [
+            "numpy"
+        ]
+    },
+    {
+        "f5networks/f5-openstack-agent": [
+            "f5-sdk"
+        ]
+    },
+    {
+        "pseudonym117/riot-watcher": [
+            "requests"
+        ]
+    },
+    {
+        "axiros/terminal_markdown_viewer": [
+            "markdown",
+            "pygments"
+        ]
+    },
+    {
+        "clarkperkins/click-shell": [
+            "click"
+        ]
+    },
+    {
+        "py-bson/bson": [
+            "six",
+            "python-dateutil"
+        ]
+    },
+    {
+        "xgcm/xrft": [
+            "scipy",
+            "dask",
+            "pandas",
+            "xarray",
+            "numpy"
+        ]
+    },
+    {
+        "edx/edx-search": [
+            "edx-toggles",
+            "django",
+            "elasticsearch",
+            "event-tracking",
+            "meilisearch"
+        ]
+    },
+    {
+        "pyhdi/pyverilog": [
+            "ply",
+            "jinja2"
+        ]
+    },
+    {
+        "tensorlayer/tensorlayer": [
+            "progressbar2",
+            "scikit-image",
+            "scipy",
+            "cloudpickle",
+            "numpy",
+            "wrapt",
+            "imageio",
+            "scikit-learn",
+            "h5py",
+            "requests"
+        ]
+    },
+    {
+        "camptocamp/anthem": [
+            "unicodecsv",
+            "future"
+        ]
+    },
+    {
+        "simetenn/uncertainpy": [
+            "salib",
+            "chaospy",
+            "scipy",
+            "seaborn",
+            "ruamel-yaml",
+            "numpy",
+            "six",
+            "h5py",
+            "exdir",
+            "tqdm",
+            "xvfbwrapper",
+            "matplotlib",
+            "multiprocess"
+        ]
+    },
+    {
+        "mininet/mininet": [
+            "setuptools"
+        ]
+    },
+    {
+        "python-amazon-mws/python-amazon-mws": [
+            "requests",
+            "xmltodict",
+            "defusedxml"
+        ]
+    },
+    {
+        "kibitzr/kibitzr": [
+            "python-telegram-bot",
+            "psutil",
+            "six",
+            "entrypoints",
+            "pytimeparse",
+            "jinja2",
+            "selenium",
+            "bs4",
+            "lxml",
+            "twilio",
+            "cachecontrol",
+            "click",
+            "sh",
+            "pyyaml",
+            "requests",
+            "defusedxml",
+            "schedule",
+            "lazy-object-proxy"
+        ]
+    },
+    {
+        "phylliade/ikpy": [
+            "sympy",
+            "scipy",
+            "numpy"
+        ]
+    },
+    {
+        "colinhiggs/pyramid-jsonapi": [
+            "alchemyjsonschema",
+            "pyramid-settings-wrapper",
+            "jsonschema",
+            "cachetools",
+            "pyramid-mako",
+            "rqlalchemy",
+            "sqlalchemy",
+            "pkginfo",
+            "pyramid",
+            "pyyaml"
+        ]
+    },
+    {
+        "openidc/pyoidc": [
+            "cryptography",
+            "mako",
+            "pycryptodomex",
+            "requests",
+            "defusedxml",
+            "pyjwkest",
+            "pydantic-settings"
+        ]
+    },
+    {
+        "ahmadfaizalbh/chatbot": [
+            "requests"
+        ]
+    },
+    {
+        "mysociety/mapit": [
+            "django",
+            "shapely",
+            "psycopg2",
+            "pyyaml",
+            "uk-postcode-utils",
+            "libsass"
+        ]
+    },
+    {
+        "conan-io/conan-package-tools": [
+            "six",
+            "conan",
+            "tabulate"
+        ]
+    },
+    {
+        "sh4nks/flask-caching": [
+            "cachelib",
+            "flask"
+        ]
+    },
+    {
+        "oasis-open/cti-stix-validator": [
+            "python-dateutil",
+            "stix2-patterns"
+        ]
+    },
+    {
+        "edx/edx-proctoring": [
+            "djangorestframework",
+            "django-waffle",
+            "django-ipware",
+            "pyjwt",
+            "django-simple-history",
+            "django-crum",
+            "edx-drf-extensions",
+            "python-dateutil",
+            "pycryptodomex",
+            "django-webpack-loader",
+            "django-model-utils",
+            "event-tracking",
+            "edx-opaque-keys"
+        ]
+    },
+    {
+        "buruzaemon/natto-py": [
+            "cffi"
+        ]
+    },
+    {
+        "dpgaspar/flask-appbuilder": [
+            "prison",
+            "wtforms",
+            "flask-sqlalchemy",
+            "marshmallow-sqlalchemy",
+            "python-dateutil",
+            "werkzeug",
+            "flask-login",
+            "flask-babel",
+            "colorama",
+            "pyjwt",
+            "flask",
+            "marshmallow",
+            "sqlalchemy-utils",
+            "jsonschema",
+            "flask-wtf",
+            "sqlalchemy",
+            "click",
+            "email-validator",
+            "apispec",
+            "flask-limiter",
+            "flask-jwt-extended"
+        ]
+    },
+    {
+        "westpa/westpa": [
+            "pyzmq",
+            "mdtraj",
+            "tables",
+            "scipy",
+            "ipykernel",
+            "blessings",
+            "pandas",
+            "numpy",
+            "h5py",
+            "pyyaml",
+            "matplotlib",
+            "tqdm"
+        ]
+    },
+    {
+        "pyocd/pyocd": [
+            "lark",
+            "capstone",
+            "cmsis-pack-manager",
+            "intelhex",
+            "prettytable",
+            "six",
+            "libusb-package",
+            "colorama",
+            "natsort",
+            "importlib-resources",
+            "pylink-square",
+            "pyelftools",
+            "typing-extensions",
+            "pyusb",
+            "intervaltree",
+            "importlib-metadata",
+            "pyyaml"
+        ]
+    },
+    {
+        "loris-imageserver/loris": [
+            "chardet",
+            "asn1crypto",
+            "pycparser",
+            "urllib3",
+            "six",
+            "idna",
+            "certifi",
+            "cffi"
+        ]
+    },
+    {
+        "chainer/chainer": [
+            "six",
+            "protobuf",
+            "setuptools",
+            "filelock",
+            "typing-extensions",
+            "numpy"
+        ]
+    },
+    {
+        "lneuhaus/pyrpl": [
+            "jupyter-client"
+        ]
+    },
+    {
+        "colinduquesnoy/qdarkstylesheet": [
+            "qtpy"
+        ]
+    },
+    {
+        "svenevs/exhale": [
+            "six",
+            "lxml",
+            "breathe",
+            "beautifulsoup4",
+            "sphinx"
+        ]
+    },
+    {
+        "vlachoudis/bcnc": [
+            "svgelements",
+            "opencv-python",
+            "pyserial",
+            "shxparser",
+            "pillow",
+            "tkinter-gl",
+            "numpy"
+        ]
+    },
+    {
+        "georgemarshall/django-cryptography": [
+            "cryptography",
+            "typing-extensions",
+            "django-appconf",
+            "django"
+        ]
+    },
+    {
+        "foremast/foremast": [
+            "foremast-utils",
+            "requests",
+            "google-auth",
+            "python-gitlab",
+            "google-api-python-client",
+            "awscli",
+            "jinja2",
+            "deepmerge",
+            "cryptography",
+            "boto3",
+            "pyjwt",
+            "pluginbase",
+            "google-cloud-secret-manager",
+            "google-auth-httplib2",
+            "slacker",
+            "tryagain",
+            "requests-toolbelt",
+            "tabulate"
+        ]
+    },
+    {
+        "automl/smac3": [
+            "scipy",
+            "pynisher",
+            "joblib",
+            "dask",
+            "numpy",
+            "psutil",
+            "emcee",
+            "scikit-learn",
+            "dask-jobqueue",
+            "pyrfr",
+            "regex",
+            "pyyaml",
+            "configspace"
+        ]
+    },
+    {
+        "razorpay/razorpay-python": [
+            "requests"
+        ]
+    },
+    {
+        "donnemartin/saws": [
+            "six",
+            "click",
+            "awscli",
+            "pygments",
+            "prompt-toolkit",
+            "configobj"
+        ]
+    },
+    {
+        "scrapinghub/dateparser": [
+            "pytz",
+            "python-dateutil",
+            "regex",
+            "tzlocal"
+        ]
+    },
+    {
+        "wagtail/wagtailtrans": [
+            "wagtail"
+        ]
+    },
+    {
+        "bradleyg/django-s3direct": [
+            "django"
+        ]
+    },
+    {
+        "pydata/patsy": [
+            "numpy"
+        ]
+    },
+    {
+        "matlink/gplaycli": [
+            "matlink-gpapi"
+        ]
+    },
+    {
+        "languitar/autosuspend": [
+            "portalocker",
+            "psutil"
+        ]
+    },
+    {
+        "aio-libs/aiomonitor": [
+            "telnetlib3",
+            "attrs",
+            "aioconsole",
+            "aiohttp",
+            "prompt-toolkit",
+            "click",
+            "typing-extensions",
+            "terminaltables",
+            "jinja2",
+            "trafaret",
+            "backports-strenum",
+            "janus"
+        ]
+    },
+    {
+        "paulhancock/aegean": [
+            "scikit-learn",
+            "healpy",
+            "scipy",
+            "astropy",
+            "lmfit",
+            "numpy",
+            "tqdm"
+        ]
+    },
+    {
+        "conan-io/conan": [
+            "colorama",
+            "jinja2",
+            "urllib3",
+            "distro",
+            "patch-ng",
+            "pyyaml",
+            "fasteners",
+            "requests",
+            "python-dateutil"
+        ]
+    },
+    {
+        "mixpanel/mixpanel-python": [
+            "requests",
+            "six",
+            "urllib3"
+        ]
+    },
+    {
+        "kjellmf/dot2tex": [
+            "setuptools",
+            "pyparsing"
+        ]
+    },
+    {
+        "ptb-pst1/pydynamic": [
+            "sympy",
+            "scipy",
+            "pywavelets",
+            "pandas",
+            "time-series-buffer",
+            "numpy",
+            "matplotlib"
+        ]
+    },
+    {
+        "edx/xblock-utils": [
+            "mako",
+            "simplejson",
+            "web-fragments",
+            "xblock"
+        ]
+    },
+    {
+        "cuemacro/findatapy": [
+            "numba",
+            "twython",
+            "pandas",
+            "keyring",
+            "numpy",
+            "yfinance",
+            "pandas-datareader",
+            "statsmodels",
+            "pyarrow",
+            "multiprocess",
+            "pytz",
+            "redis",
+            "openpyxl",
+            "chartpy",
+            "eikon",
+            "alpha-vantage",
+            "requests",
+            "quandl"
+        ]
+    },
+    {
+        "achael/eht-imaging": [
+            "networkx",
+            "astropy",
+            "skyfield",
+            "scipy",
+            "pandas",
+            "numpy",
+            "h5py",
+            "future",
+            "requests",
+            "matplotlib",
+            "paramsurvey"
+        ]
+    },
+    {
+        "antonagestam/collectfast": [
+            "django-storages",
+            "typing-extensions",
+            "django"
+        ]
+    },
+    {
+        "pixelb/crudini": [
+            "iniparse"
+        ]
+    },
+    {
+        "bundlewrap/bundlewrap": [
+            "pyyaml"
+        ]
+    },
+    {
+        "googleads/googleads-python-lib": [
+            "pytz",
+            "xmltodict",
+            "google-auth-oauthlib",
+            "google-auth",
+            "pyyaml",
+            "requests",
+            "zeep"
+        ]
+    },
+    {
+        "timotheus/ebaysdk-python": [
+            "requests",
+            "lxml"
+        ]
+    },
+    {
+        "abhishek-ram/pyas2-lib": [
+            "pyopenssl",
+            "asn1crypto",
+            "oscrypto"
+        ]
+    },
+    {
+        "epistasislab/tpot": [
+            "distributed",
+            "scipy",
+            "lightgbm",
+            "networkx",
+            "joblib",
+            "seaborn",
+            "xgboost",
+            "numpy",
+            "pandas",
+            "dask-jobqueue",
+            "optuna",
+            "scikit-learn",
+            "stopit",
+            "update-checker",
+            "dill",
+            "dask",
+            "func-timeout",
+            "traitlets",
+            "configspace",
+            "matplotlib",
+            "tqdm",
+            "dask-expr"
+        ]
+    },
+    {
+        "mfussenegger/cr8": [
+            "argh",
+            "asyncpg",
+            "aiohttp",
+            "toml",
+            "faker",
+            "tqdm"
+        ]
+    },
+    {
+        "lxc/pylxd": [
+            "cryptography",
+            "ws4py",
+            "requests",
+            "requests-toolbelt",
+            "python-dateutil"
+        ]
+    },
+    {
+        "googleapis/google-auth-library-python": [
+            "rsa",
+            "cachetools",
+            "pyasn1-modules"
+        ]
+    },
+    {
+        "django-salesforce/django-salesforce": [
+            "requests",
+            "pytz",
+            "django"
+        ]
+    },
+    {
+        "pik-copan/pyunicorn": [
+            "scipy",
+            "h5netcdf",
+            "igraph",
+            "numpy",
+            "tqdm"
+        ]
+    },
+    {
+        "geex-arts/django-jet": [
+            "django"
+        ]
+    },
+    {
+        "g-node/nixpy": [
+            "h5py",
+            "numpy"
+        ]
+    },
+    {
+        "qquick/transcrypt": [
+            "mypy"
+        ]
+    },
+    {
+        "django-json-api/django-rest-framework-json-api": [
+            "djangorestframework"
+        ]
+    },
+    {
+        "snowflakedb/snowflake-ingest-python": [
+            "requests",
+            "cryptography",
+            "pyjwt",
+            "furl",
+            "snowflake-connector-python"
+        ]
+    },
+    {
+        "celery/django-celery-beat": [
+            "cron-descriptor",
+            "python-crontab",
+            "django-timezone-field",
+            "tzdata",
+            "django",
+            "celery"
+        ]
+    },
+    {
+        "craffel/mir_eval": [
+            "decorator",
+            "numpy",
+            "scipy"
+        ]
+    },
+    {
+        "pyfilesystem/pyfilesystem2": [
+            "six",
+            "setuptools",
+            "appdirs"
+        ]
+    },
+    {
+        "moepman/acertmgr": [
+            "cryptography"
+        ]
+    },
+    {
+        "bxlab/bx-python": [
+            "pyparsing",
+            "numpy"
+        ]
+    },
+    {
+        "enthought/chaco": [
+            "traits",
+            "pyface",
+            "traitsui",
+            "enable",
+            "numpy"
+        ]
+    },
+    {
+        "pyabel/pyabel": [
+            "six",
+            "setuptools",
+            "scipy",
+            "numpy"
+        ]
+    },
+    {
+        "pynamodb/pynamodb": [
+            "botocore",
+            "typing-extensions"
+        ]
+    },
+    {
+        "pre-commit/pre-commit": [
+            "identify",
+            "cfgv",
+            "pyyaml",
+            "virtualenv",
+            "nodeenv"
+        ]
+    },
+    {
+        "pythonot/pot": [
+            "scipy",
+            "numpy"
+        ]
+    },
+    {
+        "sfstoolbox/sfs-python": [
+            "scipy",
+            "numpy"
+        ]
+    },
+    {
+        "spatialaudio/python-sounddevice": [
+            "cffi"
+        ]
+    },
+    {
+        "edx/edx-enterprise": [
+            "openedx-events",
+            "django-object-actions",
+            "django-simple-history",
+            "testfixtures",
+            "openai",
+            "jsondiff",
+            "edx-django-utils",
+            "django",
+            "slumber",
+            "unicodecsv",
+            "pillow",
+            "edx-opaque-keys",
+            "djangorestframework",
+            "cryptography",
+            "django-waffle",
+            "rules",
+            "pgpy",
+            "snowflake-connector-python",
+            "path-py",
+            "djangorestframework-xml",
+            "django-oauth-toolkit",
+            "django-multi-email-field",
+            "django-filter",
+            "edx-rbac",
+            "edx-drf-extensions",
+            "django-fernet-fields-v2",
+            "django-cache-memoize",
+            "edx-rest-api-client",
+            "paramiko",
+            "code-annotations",
+            "django-model-utils",
+            "python-dateutil",
+            "edx-toggles",
+            "pytz",
+            "django-ipware",
+            "stevedore",
+            "django-crum",
+            "django-countries",
+            "django-config-models",
+            "edx-tincan-py35",
+            "jsonfield",
+            "requests",
+            "bleach",
+            "celery"
+        ]
+    },
+    {
+        "scrapy/parsel": [
+            "w3lib",
+            "lxml",
+            "cssselect",
+            "jmespath",
+            "packaging"
+        ]
+    },
+    {
+        "coddingtonbear/django-measurement": [
+            "django-appconf",
+            "measurement",
+            "django"
+        ]
+    },
+    {
+        "nsqio/pynsq": [
+            "tornado"
+        ]
+    },
+    {
+        "itamarst/eliot": [
+            "orjson",
+            "zope-interface",
+            "boltons",
+            "pyrsistent"
+        ]
+    },
+    {
+        "edx/django-config-models": [
+            "djangorestframework",
+            "edx-django-utils",
+            "django"
+        ]
+    },
+    {
+        "hadrieng/insilicoseq": [
+            "pysam",
+            "scipy",
+            "biopython",
+            "requests",
+            "numpy"
+        ]
+    },
+    {
+        "pierreraybaut/guiqwt": [
+            "qtpy",
+            "guidata",
+            "scipy",
+            "pythonqwt",
+            "pillow",
+            "numpy"
+        ]
+    },
+    {
+        "thombashi/tcconfig": [
+            "simplesqlite",
+            "dataproperty",
+            "docker",
+            "subprocrunner",
+            "typepy",
+            "path",
+            "loguru",
+            "msgfy",
+            "voluptuous",
+            "pyparsing",
+            "pyroute2",
+            "humanreadable"
+        ]
+    },
+    {
+        "wamdam/backy2": [
+            "alembic",
+            "shortuuid",
+            "psutil",
+            "sqlalchemy",
+            "fusepy",
+            "setproctitle",
+            "prettytable",
+            "python-dateutil"
+        ]
+    },
+    {
+        "matrix-org/matrix-python-sdk": [
+            "requests",
+            "urllib3"
+        ]
+    },
+    {
+        "edx/xblock-lti-consumer": [
+            "openedx-django-pyfs",
+            "django",
+            "django-statici18n",
+            "mako",
+            "edx-ccx-keys",
+            "edx-opaque-keys",
+            "lxml",
+            "oauthlib",
+            "pyjwt",
+            "xblock",
+            "attrs",
+            "openedx-filters",
+            "lazy",
+            "django-config-models",
+            "pycryptodomex",
+            "django-filter",
+            "jsonfield",
+            "bleach"
+        ]
+    },
+    {
+        "grigorig/stcgal": [
+            "pyserial",
+            "tqdm"
+        ]
+    },
+    {
+        "wookayin/gpustat": [
+            "nvidia-ml-py"
+        ]
+    },
+    {
+        "man-group/arctic": [
+            "pytz",
+            "pandas",
+            "numpy",
+            "mock",
+            "pymongo",
+            "mockextras",
+            "tzlocal",
+            "lz4",
+            "enum-compat",
+            "decorator"
+        ]
+    },
+    {
+        "nfcpy/nfcpy": [
+            "ndeflib",
+            "libusb1",
+            "pyserial",
+            "pydes"
+        ]
+    },
+    {
+        "softlayer/softlayer-python": [
+            "rich",
+            "click",
+            "prompt-toolkit",
+            "requests",
+            "urllib3",
+            "pygments"
+        ]
+    },
+    {
+        "kivy/python-for-android": [
+            "wheel",
+            "setuptools",
+            "colorama",
+            "build",
+            "packaging",
+            "sh",
+            "appdirs",
+            "toml",
+            "jinja2"
+        ]
+    },
+    {
+        "altschool/dynamic-rest": [
+            "djangorestframework",
+            "requests"
+        ]
+    },
+    {
+        "bluesky/databroker": [
+            "tiled"
+        ]
+    },
+    {
+        "chebpy/chebpy": [
+            "numpy",
+            "pyfftw"
+        ]
+    },
+    {
+        "sage-bionetworks/synapsepythonclient": [
+            "opentelemetry-instrumentation-requests",
+            "opentelemetry-instrumentation-httpx",
+            "psutil",
+            "opentelemetry-exporter-otlp-proto-http",
+            "deprecated",
+            "opentelemetry-instrumentation-threading",
+            "opentelemetry-sdk",
+            "opentelemetry-instrumentation-urllib",
+            "httpcore",
+            "opentelemetry-api",
+            "urllib3",
+            "asyncio-atexit",
+            "nest-asyncio",
+            "httpx",
+            "requests",
+            "async-lru",
+            "tqdm"
+        ]
+    },
+    {
+        "vyperlang/vyper": [
+            "wheel",
+            "pycryptodome",
+            "lark",
+            "immutables",
+            "cbor2",
+            "packaging"
+        ]
+    },
+    {
+        "oggm/oggm": [
+            "shapely",
+            "scipy",
+            "netcdf4",
+            "pandas",
+            "xarray",
+            "numpy",
+            "configobj",
+            "requests",
+            "matplotlib"
+        ]
+    },
+    {
+        "minio/minio-py": [
+            "typing-extensions",
+            "certifi",
+            "urllib3",
+            "pycryptodome",
+            "argon2-cffi"
+        ]
+    },
+    {
+        "flask-api/flask-api": [
+            "flask"
+        ]
+    },
+    {
+        "vkurup/python-tcxparser": [
+            "lxml",
+            "python-dateutil"
+        ]
+    },
+    {
+        "sncosmo/sncosmo": [
+            "extinction",
+            "h5py",
+            "scipy",
+            "astropy",
+            "looseversion",
+            "pyyaml",
+            "numpy"
+        ]
+    },
+    {
+        "evhub/coconut": [
+            "exceptiongroup",
+            "setuptools",
+            "anyio",
+            "async-generator",
+            "prompt-toolkit",
+            "psutil",
+            "typing-extensions",
+            "cpyparsing",
+            "pygments"
+        ]
+    },
+    {
+        "ev3dev/ev3dev-lang-python": [
+            "pillow"
+        ]
+    },
+    {
+        "plus3it/watchmaker": [
+            "compatibleversion",
+            "importlib-resources",
+            "distro",
+            "backoff",
+            "six",
+            "oschmod",
+            "click",
+            "pyyaml",
+            "importlib-metadata"
+        ]
+    },
+    {
+        "spacetelescope/synphot_refactor": [
+            "scipy",
+            "astropy",
+            "numpy"
+        ]
+    },
+    {
+        "4catalyzer/flask-resty": [
+            "werkzeug",
+            "sqlalchemy",
+            "marshmallow",
+            "flask",
+            "konch",
+            "flask-sqlalchemy"
+        ]
+    },
+    {
+        "mozillasecurity/ffpuppet": [
+            "psutil",
+            "xvfbwrapper"
+        ]
+    },
+    {
+        "getsentry/responses": [
+            "requests",
+            "urllib3",
+            "pyyaml"
+        ]
+    },
+    {
+        "ccnmtl/django-lti-provider": [
+            "httplib2",
+            "oauthlib",
+            "django",
+            "pylti",
+            "nameparser",
+            "oauth2",
+            "pylti1p3"
+        ]
+    },
+    {
+        "kieranwynn/pyquaternion": [
+            "numpy"
+        ]
+    },
+    {
+        "cellprofiler/python-bioformats": [
+            "boto3",
+            "future",
+            "python-javabridge"
+        ]
+    },
+    {
+        "ctpug/wafer": [
+            "djangorestframework",
+            "pytz",
+            "django-registration-redux",
+            "django-bakery",
+            "pylibravatar",
+            "py3dns",
+            "django-crispy-forms",
+            "crispy-bootstrap5",
+            "drf-extensions",
+            "django-reversion",
+            "pillow",
+            "django-markitup"
+        ]
+    },
+    {
+        "googleapis/google-api-python-client": [
+            "httplib2",
+            "google-api-core",
+            "google-auth-httplib2",
+            "google-auth",
+            "uritemplate"
+        ]
+    },
+    {
+        "aschn/drf-tracking": [
+            "pytz"
+        ]
+    },
+    {
+        "keepkey/python-keepkey": [
+            "mnemonic",
+            "protobuf",
+            "hidapi",
+            "libusb1",
+            "ecdsa"
+        ]
+    },
+    {
+        "savoirfairelinux/num2words": [
+            "docopt"
+        ]
+    },
+    {
+        "christabor/flask_jsondash": [
+            "pymongo",
+            "click",
+            "flask",
+            "cerberus"
+        ]
+    },
+    {
+        "s4w3d0ff/python-poloniex": [
+            "requests",
+            "websocket-client"
+        ]
+    },
+    {
+        "galvant/instrumentkit": [
+            "pyvisa",
+            "pyserial",
+            "pint",
+            "python-vxi11",
+            "ruamel-yaml",
+            "typing-extensions",
+            "pyusb",
+            "python-usbtmc"
+        ]
+    },
+    {
+        "poppy-project/pypot": [
+            "wget",
+            "pyserial",
+            "tornado",
+            "scipy",
+            "opencv-contrib-python",
+            "ikpy",
+            "numpy",
+            "bottle",
+            "requests"
+        ]
+    },
+    {
+        "nrel/hescore-hpxml": [
+            "lxml",
+            "jsonschema"
+        ]
+    },
+    {
+        "bjodah/pyodesys": [
+            "sympy",
+            "scipy",
+            "sym",
+            "matplotlib",
+            "numpy",
+            "notebook"
+        ]
+    },
+    {
+        "danilop/yas3fs": [
+            "setuptools",
+            "boto3",
+            "boto"
+        ]
+    },
+    {
+        "bjodah/chempy": [
+            "scipy",
+            "pyodesys",
+            "numpy",
+            "dot2tex",
+            "sympy",
+            "quantities",
+            "pyparsing",
+            "pulp",
+            "pyneqsys",
+            "sym",
+            "matplotlib"
+        ]
+    },
+    {
+        "openstenoproject/plover": [
+            "setuptools",
+            "pyserial",
+            "readme-renderer",
+            "plover-stroke",
+            "wcwidth",
+            "packaging",
+            "psutil",
+            "requests-cache",
+            "requests-futures",
+            "python-xlib",
+            "appdirs",
+            "evdev",
+            "pkginfo",
+            "rtf-tokenize",
+            "pygments"
+        ]
+    },
+    {
+        "dschep/ntfy": [
+            "requests",
+            "ruamel-yaml",
+            "appdirs"
+        ]
+    },
+    {
+        "cwacek/python-jsonschema-objects": [
+            "jsonschema",
+            "markdown",
+            "inflection"
+        ]
+    },
+    {
+        "kivy/buildozer": [
+            "pexpect",
+            "packaging",
+            "cython"
+        ]
+    },
+    {
+        "pyscaffold/pyscaffold": [
+            "setuptools",
+            "platformdirs",
+            "setuptools-scm",
+            "configupdater",
+            "tomlkit",
+            "packaging"
+        ]
+    },
+    {
+        "geotab/mygeotab-python": [
+            "pytz",
+            "arrow",
+            "python-rapidjson",
+            "click",
+            "aiohttp",
+            "requests",
+            "urllib3"
+        ]
+    },
+    {
+        "spacetelescope/pysynphot": [
+            "six",
+            "beautifulsoup4",
+            "astropy",
+            "numpy"
+        ]
+    },
+    {
+        "graphql-python/graphene": [
+            "graphql-relay",
+            "graphql-core",
+            "python-dateutil",
+            "typing-extensions"
+        ]
+    },
+    {
+        "thenetcircle/dino": [
+            "typing",
+            "psycogreen",
+            "codecov",
+            "coverage"
+        ]
+    },
+    {
+        "anaconda-platform/anaconda-client": [
+            "python-dateutil",
+            "pyyaml",
+            "conda-package-handling"
+        ]
+    },
+    {
+        "kovacsbalu/wazeroutecalculator": [
+            "requests"
+        ]
+    },
+    {
+        "weaverba137/pydl": [
+            "scipy",
+            "astropy"
+        ]
+    },
+    {
+        "powa-team/powa-web": [
+            "tornado",
+            "psycopg2"
+        ]
+    },
+    {
+        "jazzband/django-push-notifications": [
+            "django"
+        ]
+    },
+    {
+        "jpush/jpush-api-python-client": [
+            "requests"
+        ]
+    },
+    {
+        "edx/i18n-tools": [
+            "polib",
+            "lxml",
+            "pyyaml",
+            "django",
+            "path"
+        ]
+    },
+    {
+        "peopledoc/django-formidable": [
+            "djangorestframework",
+            "pytz",
+            "markdown",
+            "jsonfield",
+            "django",
+            "python-dateutil"
+        ]
+    },
+    {
+        "sanic-org/sanic": [
+            "setuptools",
+            "sanic-routing",
+            "multidict",
+            "httptools",
+            "uvloop",
+            "websockets",
+            "tracerite",
+            "typing-extensions",
+            "html5tagger",
+            "aiofiles",
+            "ujson"
+        ]
+    },
+    {
+        "dicompyler/dicompyler-core": [
+            "pydicom",
+            "matplotlib",
+            "numpy"
+        ]
+    },
+    {
+        "datalad/datalad": [
+            "platformdirs",
+            "annexremote",
+            "humanize",
+            "keyring",
+            "packaging",
+            "distro",
+            "python-gitlab",
+            "iso8601",
+            "msgpack",
+            "looseversion",
+            "keyrings-alt",
+            "boto3",
+            "chardet",
+            "typing-extensions",
+            "fasteners",
+            "requests",
+            "tqdm",
+            "patool"
+        ]
+    },
+    {
+        "pexpect/pexpect": [
+            "ptyprocess"
+        ]
+    },
+    {
+        "vanheeringen-lab/gimmemotifs": [
+            "pysam",
+            "scipy",
+            "biofluff",
+            "seaborn",
+            "diskcache",
+            "numpy",
+            "pandas",
+            "scikit-learn",
+            "iteround",
+            "jinja2",
+            "statsmodels",
+            "feather-format",
+            "setuptools",
+            "loguru",
+            "xxhash",
+            "logomaker",
+            "genomepy",
+            "pybedtools",
+            "qnorm",
+            "xdg",
+            "matplotlib",
+            "configparser",
+            "tqdm"
+        ]
+    },
+    {
+        "pahaz/sshtunnel": [
+            "paramiko"
+        ]
+    },
+    {
+        "tableau/document-api-python": [
+            "lxml"
+        ]
+    },
+    {
+        "neovim/pynvim": [
+            "msgpack",
+            "typing-extensions",
+            "greenlet"
+        ]
+    },
+    {
+        "pmeal/openpnm": [
+            "scikit-image"
+        ]
+    },
+    {
+        "kozea/cairosvg": [
+            "cairocffi",
+            "tinycss2",
+            "cssselect2",
+            "defusedxml",
+            "pillow"
+        ]
+    },
+    {
+        "graphql-python/graphene-django": [
+            "graphql-relay",
+            "promise",
+            "django",
+            "graphql-core",
+            "graphene",
+            "text-unidecode"
+        ]
+    },
+    {
+        "getstream/stream-django": [
+            "stream-python",
+            "pytz",
+            "django"
+        ]
+    },
+    {
+        "edx/bok-choy": [
+            "selenium",
+            "lazy"
+        ]
+    },
+    {
+        "snowflakedb/snowflake-connector-python": [
+            "charset-normalizer",
+            "platformdirs",
+            "packaging",
+            "idna",
+            "filelock",
+            "botocore",
+            "cffi",
+            "cryptography",
+            "pytz",
+            "pyjwt",
+            "sortedcontainers",
+            "boto3",
+            "asn1crypto",
+            "pyopenssl",
+            "typing-extensions",
+            "certifi",
+            "requests",
+            "tomlkit"
+        ]
+    },
+    {
+        "stripe/stripe-python": [
+            "requests",
+            "typing-extensions"
+        ]
+    },
+    {
+        "hylang/hy": [
+            "funcparserlib"
+        ]
+    },
+    {
+        "gandi/gandi.cli": [
+            "setuptools",
+            "click",
+            "pyyaml",
+            "ipy",
+            "requests"
+        ]
+    },
+    {
+        "astroua/turbustat": [
+            "scikit-image",
+            "scipy",
+            "astropy",
+            "numpy",
+            "scikit-learn",
+            "statsmodels",
+            "matplotlib",
+            "spectral-cube"
+        ]
+    },
+    {
+        "wradlib/wradlib": [
+            "deprecation",
+            "matplotlib"
+        ]
+    },
+    {
+        "spyder-ide/qtawesome": [
+            "qtpy"
+        ]
+    },
+    {
+        "ecogenomics/gtdbtk": [
+            "dendropy",
+            "tqdm",
+            "numpy",
+            "pydantic"
+        ]
+    },
+    {
+        "ros-infrastructure/bloom": [
+            "setuptools",
+            "packaging",
+            "rosdep",
+            "rosdistro",
+            "pyyaml",
+            "catkin-pkg",
+            "python-dateutil",
+            "empy",
+            "vcstools"
+        ]
+    },
+    {
+        "neuralensemble/elephant": [
+            "six",
+            "quantities",
+            "scipy",
+            "neo",
+            "numpy",
+            "tqdm"
+        ]
+    },
+    {
+        "ptb-m4d/pydynamic": [
+            "sympy",
+            "scipy",
+            "pywavelets",
+            "pandas",
+            "time-series-buffer",
+            "numpy",
+            "matplotlib"
+        ]
+    },
+    {
+        "jantman/awslimitchecker": [
+            "pytz",
+            "boto3",
+            "versionfinder",
+            "botocore",
+            "python-dateutil",
+            "urllib3",
+            "termcolor"
+        ]
+    },
+    {
+        "emc-isilon/pike": [
+            "six",
+            "attrs",
+            "pycryptodome",
+            "future"
+        ]
+    },
+    {
+        "hugapi/hug": [
+            "requests",
+            "falcon"
+        ]
+    },
+    {
+        "graphql-python/gql": [
+            "graphql-core",
+            "anyio",
+            "yarl",
+            "backoff"
+        ]
+    },
+    {
+        "bobbuildtool/bob": [
+            "schema",
+            "pyparsing",
+            "python-magic",
+            "pyyaml"
+        ]
+    },
+    {
+        "appium/python-client": [
+            "selenium"
+        ]
+    },
+    {
+        "camdavidsonpilon/lifelines": [
+            "matplotlib",
+            "scipy",
+            "autograd",
+            "formulaic",
+            "pandas",
+            "numpy",
+            "autograd-gamma"
+        ]
+    },
+    {
+        "plamere/spotipy": [
+            "requests",
+            "urllib3",
+            "redis"
+        ]
+    },
+    {
+        "dropbox/pyhive": [
+            "python-dateutil",
+            "future"
+        ]
+    },
+    {
+        "opencobra/cobrapy": [
+            "depinfo",
+            "pydantic",
+            "optlang",
+            "importlib-resources",
+            "pandas",
+            "diskcache",
+            "ruamel-yaml",
+            "python-libsbml",
+            "numpy",
+            "rich",
+            "httpx",
+            "swiglpk",
+            "appdirs",
+            "future"
+        ]
+    },
+    {
+        "micropyramid/forex-python": [
+            "requests",
+            "simplejson"
+        ]
+    },
+    {
+        "nextstrain/augur": [
+            "scipy",
+            "pyfastx",
+            "networkx",
+            "isodate",
+            "python-calamine",
+            "pandas",
+            "referencing",
+            "numpy",
+            "packaging",
+            "cvxopt",
+            "phylo-treetime",
+            "biopython",
+            "xopen",
+            "importlib-resources",
+            "jsonschema",
+            "bcbio-gff"
+        ]
+    },
+    {
+        "gns3/gns3-gui": [
+            "psutil",
+            "jsonschema",
+            "truststore",
+            "distro",
+            "sentry-sdk"
+        ]
+    },
+    {
+        "uw-hydro/rvic": [
+            "scipy",
+            "netcdf4",
+            "pandas",
+            "numpy",
+            "matplotlib"
+        ]
+    },
+    {
+        "pylons/deformdemo": [
+            "pyramid-chameleon",
+            "babel",
+            "pyramid",
+            "deform",
+            "waitress",
+            "pygments"
+        ]
+    },
+    {
+        "inasafe/inasafe": [
+            "pydispatcher",
+            "raven",
+            "inasafe-parameters"
+        ]
+    },
+    {
+        "edx/codejail": [
+            "six"
+        ]
+    },
+    {
+        "juliotrigo/sqlalchemy-filters": [
+            "six",
+            "sqlalchemy"
+        ]
+    },
+    {
+        "googlemaps/google-maps-services-python": [
+            "requests"
+        ]
+    },
+    {
+        "ab-ce/abce": [
+            "future"
+        ]
+    },
+    {
+        "packethost/packet-python": [
+            "requests"
+        ]
+    },
+    {
+        "qiita-spots/qiita": [
+            "supervisor",
+            "sphinx-bootstrap-theme",
+            "humanize",
+            "seaborn",
+            "h5py",
+            "toredis",
+            "nltk",
+            "iteration-utilities",
+            "scp",
+            "biom-format",
+            "natsort",
+            "redis",
+            "nose",
+            "gitpython",
+            "psycopg2",
+            "redbiom",
+            "wtforms",
+            "scipy",
+            "networkx",
+            "joblib",
+            "pandas",
+            "bcrypt",
+            "qiita-files",
+            "mock",
+            "six",
+            "paramiko",
+            "markdown2",
+            "pyzmq",
+            "tornado",
+            "python-jose",
+            "flake8",
+            "sphinx",
+            "openpyxl",
+            "click",
+            "pyparsing",
+            "sphinx-rtd-theme",
+            "matplotlib",
+            "pep8"
+        ]
+    },
+    {
+        "bluesky/ophyd": [
+            "networkx",
+            "pint",
+            "opentelemetry-api",
+            "numpy",
+            "packaging"
+        ]
+    },
+    {
+        "ethereum/py-evm": [
+            "cached-property",
+            "py-ecc",
+            "eth-keys",
+            "trie",
+            "lru-dict",
+            "eth-utils",
+            "eth-typing",
+            "rlp",
+            "ckzg",
+            "eth-bloom"
+        ]
+    },
+    {
+        "leeping/geometric": [
+            "six",
+            "networkx",
+            "numpy",
+            "scipy"
+        ]
+    },
+    {
+        "mozillasecurity/funfuzz": [
+            "requests",
+            "boto",
+            "fasteners"
+        ]
+    },
+    {
+        "chimpler/pyhocon": [
+            "pyparsing"
+        ]
+    },
+    {
+        "sassoftware/python-swat": [
+            "six",
+            "pytz",
+            "requests",
+            "pandas",
+            "urllib3"
+        ]
+    },
+    {
+        "stphivos/django-mock-queries": [
+            "djangorestframework",
+            "model-bakery",
+            "django"
+        ]
+    },
+    {
+        "qiniu/python-sdk": [
+            "requests"
+        ]
+    },
+    {
+        "nengo/nengo-spa": [
+            "nengo",
+            "numpy"
+        ]
+    },
+    {
+        "thombashi/datetimerange": [
+            "python-dateutil",
+            "typepy"
+        ]
+    },
+    {
+        "ratt-ru/cubical": [
+            "numba",
+            "sharedarray",
+            "astropy",
+            "python-casacore",
+            "scipy",
+            "numpy",
+            "astro-tigger-lsm",
+            "psutil",
+            "six",
+            "future",
+            "matplotlib"
+        ]
+    },
+    {
+        "nengo/nengo": [
+            "numpy"
+        ]
+    },
+    {
+        "wind-python/windpowerlib": [
+            "requests",
+            "pandas"
+        ]
+    },
+    {
+        "f5networks/f5-common-python": [
+            "six",
+            "f5-icontrol-rest"
+        ]
+    },
+    {
+        "simple-salesforce/simple-salesforce": [
+            "more-itertools",
+            "pyjwt",
+            "typing-extensions",
+            "requests",
+            "zeep"
+        ]
+    },
+    {
+        "ros-infrastructure/ros_buildfarm": [
+            "jenkinsapi",
+            "rosdistro",
+            "vcstool",
+            "pyyaml",
+            "catkin-pkg",
+            "empy"
+        ]
+    },
+    {
+        "akretion/roulier": [
+            "pycountry"
+        ]
+    },
+    {
+        "geopy/geopy": [
+            "geographiclib"
+        ]
+    },
+    {
+        "jpmens/mqttwarn": [
+            "attrs",
+            "paho-mqtt",
+            "jinja2",
+            "six",
+            "funcy",
+            "docopt",
+            "future",
+            "requests"
+        ]
+    },
+    {
+        "svenkreiss/html5validator": [
+            "pyyaml"
+        ]
+    },
+    {
+        "imageio/imageio": [
+            "pillow",
+            "numpy"
+        ]
+    },
+    {
+        "galaxyproject/bioblend": [
+            "requests",
+            "requests-toolbelt",
+            "tuspy",
+            "pyyaml"
+        ]
+    },
+    {
+        "jjjake/internetarchive": [
+            "jsonpatch",
+            "tqdm",
+            "requests",
+            "urllib3",
+            "importlib-metadata"
+        ]
+    },
+    {
+        "beetbox/mediafile": [
+            "filetype",
+            "mutagen"
+        ]
+    },
+    {
+        "provenancelabs/image-match": [
+            "six",
+            "scikit-image",
+            "elasticsearch"
+        ]
+    },
+    {
+        "vispy/vispy": [
+            "freetype-py",
+            "kiwisolver",
+            "hsluv",
+            "numpy",
+            "packaging"
+        ]
+    },
+    {
+        "snare/voltron": [
+            "pysigset",
+            "flask",
+            "blessed",
+            "six",
+            "requests-unixsocket",
+            "scruffington",
+            "requests",
+            "flask-restful",
+            "pygments"
+        ]
+    },
+    {
+        "python-escpos/python-escpos": [
+            "python-barcode",
+            "setuptools",
+            "pillow",
+            "pyyaml"
+        ]
+    },
+    {
+        "gocardless/gocardless-pro-python": [
+            "requests",
+            "six"
+        ]
+    },
+    {
+        "ccnmtl/django-pagetree": [
+            "markdown",
+            "django-markdownify",
+            "django-treebeard",
+            "coverage",
+            "django-bootstrap3"
+        ]
+    },
+    {
+        "identitypython/djangosaml2": [
+            "defusedxml",
+            "pysaml2",
+            "django"
+        ]
+    },
+    {
+        "adafruit/adafruit_circuitpython_neopixel": [
+            "adafruit-circuitpython-pixelbuf",
+            "adafruit-blinka"
+        ]
+    },
+    {
+        "obsrvbl/flowlogs-reader": [
+            "python-dateutil",
+            "boto3",
+            "botocore",
+            "parquet"
+        ]
+    },
+    {
+        "httpie/httpie": [
+            "charset-normalizer",
+            "setuptools",
+            "multidict",
+            "rich",
+            "pip",
+            "requests",
+            "requests-toolbelt",
+            "defusedxml",
+            "pygments"
+        ]
+    },
+    {
+        "graphbrain/graphbrain": [
+            "progressbar2",
+            "thinc",
+            "spacy",
+            "networkx",
+            "mwparserfromhell",
+            "torch",
+            "plyvel",
+            "numpy",
+            "termcolor",
+            "ipython",
+            "asciitree",
+            "scikit-learn",
+            "trafilatura",
+            "spacy-transformers"
+        ]
+    },
+    {
+        "colinoflynn/pico-python": [
+            "numpy"
+        ]
+    },
+    {
+        "esss/conda-devenv": [
+            "colorama",
+            "typing-extensions",
+            "pyyaml",
+            "jinja2",
+            "packaging"
+        ]
+    },
+    {
+        "cubewise-code/tm1py": [
+            "pytz",
+            "networkx",
+            "ijson",
+            "requests",
+            "mdxpy"
+        ]
+    },
+    {
+        "pysb/pysb": [
+            "sympy",
+            "networkx",
+            "scipy",
+            "numpy"
+        ]
+    },
+    {
+        "cedadev/cis": [
+            "scitools-iris",
+            "six",
+            "scipy",
+            "netcdf4",
+            "matplotlib",
+            "numpy",
+            "psutil"
+        ]
+    },
+    {
+        "onaio/onadata": [
+            "django-query-builder",
+            "markdown",
+            "django-registration-redux",
+            "google-auth",
+            "uwsgi",
+            "numpy",
+            "django",
+            "deprecated",
+            "django-reversion",
+            "unicodecsv",
+            "pillow",
+            "djangorestframework",
+            "cryptography",
+            "djangorestframework-jsonp",
+            "django-templated-email",
+            "python-memcached",
+            "paho-mqtt",
+            "sentry-sdk",
+            "djangorestframework-xml",
+            "redis",
+            "djangorestframework-guardian",
+            "django-csp",
+            "django-taggit",
+            "django-oauth-toolkit",
+            "httplib2",
+            "google-auth-oauthlib",
+            "django-guardian",
+            "pylibmc",
+            "django-filter",
+            "defusedxml",
+            "ujson",
+            "jsonpickle",
+            "dpath",
+            "django-debug-toolbar",
+            "djangorestframework-csv",
+            "django-cors-headers",
+            "xlwt",
+            "django-activity-stream",
+            "pymongo",
+            "django-nose",
+            "recaptcha-client",
+            "appoptics-metrics",
+            "python-dateutil",
+            "lxml",
+            "xmltodict",
+            "djangorestframework-jsonapi",
+            "django-ordered-model",
+            "djangorestframework-gis",
+            "dict2xml",
+            "pyjwt",
+            "elaphe3",
+            "modilabs-python-utils",
+            "geojson",
+            "openpyxl",
+            "simplejson",
+            "django-redis",
+            "psycopg2-binary",
+            "requests",
+            "analytics-python",
+            "celery"
+        ]
+    },
+    {
+        "cookiecutter/cookiecutter": [
+            "python-slugify",
+            "jinja2",
+            "rich",
+            "arrow",
+            "click",
+            "pyyaml",
+            "requests",
+            "binaryornot"
+        ]
+    },
+    {
+        "miketeo/pysmb": [
+            "pyasn1",
+            "tqdm"
+        ]
+    },
+    {
+        "tmancal74/quantarhei": [
+            "gherkin-official"
+        ]
+    },
+    {
+        "ndokter/dsmr_parser": [
+            "tailer",
+            "pytz",
+            "pyserial",
+            "pyserial-asyncio-fast",
+            "dlms-cosem"
+        ]
+    },
+    {
+        "milibris/flask-rest-jsonapi": [
+            "six",
+            "sqlalchemy",
+            "marshmallow",
+            "flask",
+            "marshmallow-jsonapi"
+        ]
+    }
+]

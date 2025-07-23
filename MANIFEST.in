@@ -1,0 +1,18 @@
+include README.md
+include LICENSE
+include MANIFEST.in
+include pyproject.toml
+include setup.py
+
+# Include all Python files
+recursive-include pytrim *.py
+
+# Include type information
+include pytrim/py.typed
+
+# Exclude development and test files
+prune tests/
+prune docs/
+exclude .gitignore
+exclude .github/*
+exclude *.log
