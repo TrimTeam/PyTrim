@@ -23,7 +23,7 @@ pip install pytrim
 
 ### Source Installation
 ```bash
-git clone https://github.com/karyotakisg/PyTrim.git
+git clone git@github.com:TrimTeam/PyTrim.git
 cd PyTrim
 pip install .
 ```
