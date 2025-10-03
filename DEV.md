@@ -2,7 +2,7 @@
 
 ## Setting up Development Environment
 ```bash
-git clone https://github.com/TrimTeam/PyTrim.git
+git clone git@github.com:TrimTeam/PyTrim.git
 cd PyTrim
 pip install -e ".[dev]"
 pre-commit install
@@ -12,7 +12,7 @@ pre-commit install
 
 ## Development Installation
 ```bash
-git clone https://github.com/TrimTeam/PyTrim.git
+git clone git@github.com:TrimTeam/PyTrim.git
 cd PyTrim
 pip install -e ".[dev]"
 ```
@@ -22,13 +22,19 @@ pip install -e ".[dev]"
 pytest
 ```
 
-## Code Formatting
+## Code quality Tools
+
+The following tools are run automatically on each commit due to the `pre-commit` runs, 
+but you can also run them manually. 
+
+### Code Formatting
+
 ```bash
 black pytrim/
 isort pytrim/
 ```
 
-## Type Checking
+### Type Checking
 ```bash
 mypy pytrim/
 ```
