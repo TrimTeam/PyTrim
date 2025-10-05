@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pytrim"
-version = "0.1.2"
+version = "0.2.0"
 description = "Auto-detect and trim unused Python imports and dependencies"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -34,12 +34,13 @@ classifiers = [
 
 dependencies = [
     "tomli>=1.2.0;python_version<'3.11'",
-    "tqdm>=4.64.0",
     "fawltydeps",
     "pkginfo",
-    "flask",
     "toml",
-    "colorama"
+    "colorama",
+    "ruff",
+    "pipdeptree",
+    "deptry"
 ]
 
 [project.optional-dependencies]
@@ -64,7 +65,7 @@ Repository = "https://github.com/TrimTeam/PyTrim.git"
 packages = { find = { where = ["."], include = ["pytrim", "pytrim.*"] } }
 
 [tool.setuptools.package-data]
-pytrim = ["py.typed", "import_mappings.json"]
+pytrim = ["py.typed", "utils/import_mappings.json"]
 
 [tool.black]
 line-length = 88

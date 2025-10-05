@@ -3,7 +3,7 @@ from collections import defaultdict
 from pathlib import Path
 
 
-def create_report(data: dict, fname: str) -> None:
+def create_report(data: dict, fname: str, reports_dir: str = "pytrim_reports") -> None:
     out = [
         f"**File:**  ``{fname}``",
         "",
@@ -17,7 +17,7 @@ def create_report(data: dict, fname: str) -> None:
             out.append(f"| {mod} | {i['name']} | {alias} | {i['line']} |")
             total += 1
     out += ["", f"**Total unused imports: {total}**"]
-    rpt = Path("reports")
+    rpt = Path(reports_dir)
     rpt.mkdir(exist_ok=True)
     (rpt / f"{Path(fname).stem}-report.md").write_text("\n".join(out))
 
@@ -52,7 +52,15 @@ def create_dir_report(rdir: str) -> None:
     (rpt / "folder_report.md").write_text("".join(content))
 
 
-def create_config_report(data: dict, fname: str) -> None:
+def clear_reports_directory(rdir: str) -> None:
+    """Clear all existing report files to prevent appending to old reports."""
+    rpt = Path(rdir)
+    if rpt.exists():
+        for f in rpt.glob("*.md"):
+            f.unlink()
+
+
+def create_config_report(data: dict, fname: str, reports_dir: str = "pytrim_reports") -> None:
     """Create individual report for config file dependencies."""
     out = [
         f"**File:**  ``{fname}``",
@@ -65,7 +73,7 @@ def create_config_report(data: dict, fname: str) -> None:
         out.append(f"| {dep} | Removed |")
         total += 1
     out += ["", f"**Total unused dependencies: {total}**"]
-    rpt = Path("reports")
+    rpt = Path(reports_dir)
     rpt.mkdir(exist_ok=True)
     (rpt / f"{Path(fname).stem}-config-report.md").write_text("\n".join(out))
 
@@ -118,13 +126,10 @@ def create_comprehensive_summary(folder_content: str, unused_cfg: dict) -> str:
 
 
 def create_project_report(rdir: str, unused_cfg: dict) -> None:
-    report_path = Path(rdir) / "project_report.md"
-    # if the file exists, clear it
-    if report_path.exists():
-        report_path.write_text("")
     create_dir_report(rdir)
     folder = Path(rdir) / "folder_report.md"
     txt = folder.read_text()
+    report_path = Path(rdir) / "project_report.md"
 
     lines = [txt, "## Config Files Changed", ""]
     filtered = {cfg: deps for cfg, deps in unused_cfg.items() if deps}

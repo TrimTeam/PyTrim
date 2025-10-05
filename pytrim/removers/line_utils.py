@@ -42,13 +42,21 @@ def remove_package_from_line(
                 if re.match(pattern, stripped_line, re.IGNORECASE):
                     return ""  # Remove the entire line for individual package entries
 
-    if "[" in line and "]" in line:
-        # Find the list content
+    if "[" in line:
+        # Handle both single-line and multi-line lists
         start = line.find("[")
-        end = line.rfind("]") + 1
-        prefix = line[:start]
-        suffix = line[end:]
-        list_content = line[start:end]
+        
+        if "]" in line:
+            # Single-line list case
+            end = line.rfind("]") + 1
+            prefix = line[:start]
+            suffix = line[end:]
+            list_content = line[start:end]
+        else:
+            # Multi-line list case (opening bracket but no closing bracket)
+            prefix = line[:start]
+            suffix = ""
+            list_content = line[start:]
 
         # Process each package in the list
         modified = list_content
@@ -80,7 +88,9 @@ def remove_package_from_line(
 
         # Clean up any double commas or trailing commas
         modified = re.sub(r",\s*,", ",", modified)
-        modified = re.sub(r",\s*]", "]", modified)
+        if "]" in line:
+            # Only clean up closing bracket patterns if we have a closing bracket
+            modified = re.sub(r",\s*]", "]", modified)
         modified = re.sub(r"\[\s*,", "[", modified)
         # Clean up extra spaces after opening bracket
         modified = re.sub(r"\[\s+", "[", modified)

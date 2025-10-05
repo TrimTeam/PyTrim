@@ -7,22 +7,23 @@ import subprocess
 import sys
 from shutil import which
 from .find_direct_and_unused_deps import get_unused_deps
-from ..analyzers.module_analyzer import ensure_mappings
-import json
 
-def run_step(cmd, step_name):
+
+def run_step(cmd, step_name, timeout):
     """
     Execute a subprocess command and handle errors.
     """
     try:
-        result = subprocess.run(cmd, capture_output=True, text=True, check=True)
+        result = subprocess.run(cmd, capture_output=True, text=True, check=True, timeout=timeout)
     except subprocess.CalledProcessError as e:
         print(f"Error in {step_name}:", file=sys.stderr)
         print(e.stderr, file=sys.stderr)
         sys.exit(1)
+    except subprocess.TimeoutExpired:
+        raise TimeoutError()
 
 
-def run_all(dest_dir: str):
+def run_all(dest_dir: str, timeout: int):
     """
     Execute all call-graph steps in order via subprocess:
       1) dependency resolution
@@ -33,18 +34,8 @@ def run_all(dest_dir: str):
     dest_dir = os.path.abspath(dest_dir)
     base_dir = os.path.dirname(os.path.abspath(__file__))
 
-    # 1) Resolve dependencies
-    run_step(
-        [
-            sys.executable,
-            os.path.join(base_dir, "dependency_resolution", "dependency_resolver.py"),
-            "--directory",
-            dest_dir,
-        ],
-        "dependency resolution",
-    )
 
-    # 2) if pycg is not installed, we need to install it
+    # 1) if pycg is not installed, we need to install it
     if which("pycg") is None:
         print("PyCG is not installed. Install it with:")
         print(
@@ -55,44 +46,33 @@ def run_all(dest_dir: str):
     )
         sys.exit(1)
 
-    # 3) find top_level names of each dep
-    resolved_json = os.path.join(
-        dest_dir, "call_graph_data", "resolved_dependencies.json"
-    )
-    deps = find_packages_without_version(resolved_json)
-    mappings_file = os.path.join("pytrim", "import_mappings.json")
-    mappings = ensure_mappings(deps, mappings_file)
-    # 4) Produce project partial call graph
-    run_step(
-        [
-            sys.executable,
-            os.path.join(
-                base_dir, "partial_cg_generation", "produce_project_partial_cg.py"
-            ),
-            "--source",
-            dest_dir,
-        ],
-        "project partial CG",
-    )
-    # 5) Find unused direct dependencies
+    # 2) Produce project partial call graph
+    try:
+        run_step(
+            [
+                sys.executable,
+                os.path.join(
+                    base_dir, "partial_cg_generation", "produce_project_partial_cg.py"
+                ),
+                "--source",
+                dest_dir,
+            ],
+            "project partial CG",
+            timeout=timeout,
+        )
+    except TimeoutError:
+        raise TimeoutError()
+    # 3) Find unused direct dependencies with dynamic and static dependency resolution and call graph parsing
     cg_path = os.path.join(dest_dir, "call_graph_data", "cg.json")
-    unused_direct_deps = get_unused_deps(cg_path, mappings)
+    unused_direct_deps = get_unused_deps(cg_path, dest_dir)
     return unused_direct_deps
 
 
-def find_unused_deps_with_cg(dest_dir: str):
+def find_unused_deps_with_cg(dest_dir: str, timeout: int):
     try:
-        unused_direct_deps = run_all(dest_dir)
+        unused_direct_deps = run_all(dest_dir, timeout=timeout)
         return unused_direct_deps
+    except TimeoutError:
+        raise TimeoutError
     except Exception as e:
-        print(f"Unexpected error: {e}", file=sys.stderr)
-        sys.exit(1)
-
-def find_packages_without_version(resolved_json):
-    if not os.path.exists(resolved_json):
-        print(f"Resolved dependencies file {resolved_json} does not exist.")
-        return
-    with open(resolved_json, 'r') as f:
-        resolved_deps = json.load(f)
-    deps = [dep.split(":")[0] for dep in resolved_deps[resolved_json.split("/")[-3]]]
-    return deps
+        raise Exception

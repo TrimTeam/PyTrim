@@ -74,7 +74,7 @@ def find_undeclared_deps(call_graph, direct_deps):
     return undeclared_deps
 
 def get_all_mappings():
-    path = os.path.join("pytrim", 'import_mappings.json')
+    path = os.path.join("pytrim", "utils", 'import_mappings.json')
     with open(path, 'r') as f:
         mappings = json.load(f)
     return mappings

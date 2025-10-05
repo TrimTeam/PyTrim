@@ -26,7 +26,7 @@ class ConfigFileRemover:
         ]
 
     def remove_unused_dependencies(
-        self, cfg_files: List[str], unused_map: Dict[str, Set[str]], create_debloated: bool = False
+        self, cfg_files: List[str], unused_map: Dict[str, Set[str]], create_debloated: bool = False, root: Path = None
     ) -> None:
         """Remove unused dependencies from config files."""
         # .in files must be handled before .txt files (.in files are input for pip-compile)
@@ -60,13 +60,16 @@ class ConfigFileRemover:
 
             if lines != out:
                 if create_debloated:
-                    out_dir = Path("output")
+                    out_dir = Path(root,"pytrim_output")
                     out_dir.mkdir(exist_ok=True)
-                    (out_dir / f"{p.stem}_debloated.{p.suffix}").write_text(new_content, encoding="utf-8")
+                    (out_dir / f"{p.stem}_debloated{p.suffix}").write_text(new_content, encoding="utf-8")
                 else:
-                    # For .in files, the RequirementsRemover handles writing both .in and .txt files
-                    if p.suffix != ".in":
-                        p.write_text(new_content, encoding="utf-8")
+                    # Write the modified content to the original file
+                    p.write_text(new_content, encoding="utf-8")
+                    
+                    # For .in files, also regenerate the corresponding .txt file
+                    if p.suffix == ".in" and isinstance(remover, RequirementsRemover):
+                        remover._regenerate_txt_file(p, out)
 
     def _find_remover(self, file_path: Path) -> BaseRemover:
         """Find the appropriate remover for this file."""
@@ -77,7 +80,7 @@ class ConfigFileRemover:
 
     def _write_to_output_dir(self, original_path: Path, content: str) -> None:
         """Write debloated content to output directory."""
-        out_dir = Path("output")
+        out_dir = Path("pytrim_output")
         out_dir.mkdir(exist_ok=True)
 
         if original_path.is_dir():
@@ -127,10 +130,10 @@ _default_remover = ConfigFileRemover()
 
 
 def remove_unused_dependencies(
-    cfg_files: List[str], unused_map: Dict[str, Set[str]], create_debloated: bool = False
+    cfg_files: List[str], unused_map: Dict[str, Set[str]], create_debloated: bool = False, root: Path = None
 ) -> None:
     """Remove unused dependencies from config files.
 
     This is a convenience function that uses the default remover instance.
     """
-    _default_remover.remove_unused_dependencies(cfg_files, unused_map, create_debloated)
+    _default_remover.remove_unused_dependencies(cfg_files, unused_map, create_debloated, root=root)

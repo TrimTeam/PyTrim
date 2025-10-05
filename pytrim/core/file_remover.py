@@ -1,8 +1,14 @@
 import ast
 from pathlib import Path
-
+import os
 from . import report_producer
-
+import subprocess
+import re
+import importlib
+import sysconfig
+import sys
+import colorama
+from ..utils.verbose_output import formatter, verbose_info, verbose_warning
 
 def file_contains_unused_imports(tree: ast.Module, unused: set) -> bool:
     """Check if the file contains any of the unused imports before processing."""
@@ -182,14 +188,14 @@ def debloat_file(
     verbose: bool = False,
     report: bool = False,
     create_debloated: bool = False,
+    root: Path = None,
+    reports_dir: str = "pytrim_reports"
 ) -> None:
     """Remove unused imports from a Python file."""
     p = Path(path)
-
     # Check if the file is a Python file
     if p.suffix.lower() != ".py":
-        if verbose:
-            print(f"Skipping {path}: not a Python file")
+        verbose_warning(f"Skipping {path}: not a Python file", verbose)
         return
 
     # Read file with encoding fallback
@@ -199,24 +205,24 @@ def debloat_file(
         try:
             code = p.read_text(encoding="latin-1")
         except UnicodeDecodeError:
-            if verbose:
-                print(f"Warning: cannot decode {path}: unsupported encoding")
+            verbose_warning(f"Cannot decode {path}: unsupported encoding", verbose)
             return
 
     # Parse AST
     try:
         tree = ast.parse(code)
     except (SyntaxError, TabError) as e:
-        if verbose:
-            print(f"Warning: cannot parse {path}: {e}")
+        verbose_warning(f"Cannot parse {path}: {e}", verbose)
         return
 
     unused_imports = set(unused_imports)
+    unused_imports = unused_imports.union(get_unused_from_linter(path))
+    if unused_imports and verbose:
+        formatter.found_unused(path, list(unused_imports))
 
     # Check if file contains any unused imports before processing
     if not file_contains_unused_imports(tree, unused_imports):
-        if verbose:
-            print(f"Skipping {path}: no unused imports found")
+        verbose_info(f"No unused imports found in {path}", verbose)
         return
 
     if report:
@@ -225,14 +231,33 @@ def debloat_file(
     out_code = remove_unused_imports_from_code(code, tree, unused_imports)
 
     if report:
-        report_producer.create_report(pre, p.name)
+        report_producer.create_report(pre, p.name, reports_dir)
 
     # Write output
     if create_debloated:
         # Create debloated files in output directory
-        out_dir = Path("output")
+
+        out_dir = Path(os.path.join(root, "pytrim_output"))
         out_dir.mkdir(exist_ok=True)
         (out_dir / f"{p.stem}_debloated.py").write_text(out_code, encoding="utf-8")
     else:
         # Overwrite original file
         p.write_text(out_code, encoding="utf-8")
+
+def get_unused_from_linter(file) -> set:
+    """Find unused imports in a single Python file using ruff linter."""
+    cmd = ["ruff", "check", file, "--select", "F401", "--output-format", "concise"]
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True)
+        libraries_to_process = set()
+        if result.stdout.strip():
+            for line in result.stdout.splitlines():
+                match = re.search(r"imported but unused", line)
+                if match:
+                    parts = line.split()
+                    if len(parts) == 7:
+                        item = parts[3].removeprefix('`').removesuffix('`')
+                        libraries_to_process.add(item.strip())
+        return libraries_to_process
+    except subprocess.CalledProcessError as e:
+        return set()

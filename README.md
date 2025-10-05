@@ -1,5 +1,11 @@
 # PyTrim
 
+[![Latest Release](https://img.shields.io/pypi/v/pytrim.svg)](https://pypi.org/project/pytrim/)
+[![Python Version](https://img.shields.io/pypi/pyversions/pytrim)](https://pypi.python.org/pypi/pytrim/)
+[![PyPI Statistics](https://img.shields.io/pypi/dm/pytrim.svg)](https://pypistats.org/packages/pytrim)
+[![Docker Pulls](https://img.shields.io/docker/pulls/karakatsanis/pytrim.svg)](https://hub.docker.com/r/karakatsanis/pytrim)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/TrimTeam/PyTrim/blob/main/LICENSE)
+
 A Python tool for trimming of unused imports and dependencies from Python projects.
 PyTrim helps keep your codebase clean by automatically removing unused dependencies from both source code and configuration files.
 
@@ -16,19 +22,38 @@ PyTrim helps keep your codebase clean by automatically removing unused dependenc
 
 ## Installation
 
-### PyPI Installation
+### Docker (Recommended for most users)
+
+1.  **Install Docker**  
+    Follow the official instructions to install Docker on your system: https://docs.docker.com/engine/install/
+
+2.  **Navigate to Your Project's Source Code Directory**  
+    In your terminal, change to the root directory of the source code you want to analyze.
+    ```bash
+    cd /path/to/your/source
+    ```
+
+3.  **Run the PyTrim Container**  
+    This command will download the official PyTrim image from Docker Hub, start a container, and mount your local project directory into the container's `/project` workspace.
+
+    ```bash
+    # For Linux and macOS
+    docker run --rm -it -v "$(pwd):/project" karakatsanis/pytrim
+    ```
+    ```bash
+    # For Windows (PowerShell)
+    docker run --rm -it -v "${PWD}:/project" karakatsanis/pytrim
+    ```
+    **Important:** Make sure to replace `/path/to/your/source` with the full, absolute path to the project directory you want to analyze.
+
+### PyPI
 ```bash
 pip install pytrim
 ```
 
-### Source Installation
-```bash
-git clone git@github.com:TrimTeam/PyTrim.git
-cd PyTrim
-pip install .
-```
+**Note**: Call graph analysis (the default detection method) requires the external tool PyCG. For the simplest experience with all features enabled, we recommend using the Docker image.
 
-### Install PyCG (optional)
+#### Install PyCG (optional)
 When pytrim is installed from Pypi or source code, to run unused packages detection with call graph you need to install pycg.
 
 1. Install PyCG from source:
@@ -38,74 +63,45 @@ When pytrim is installed from Pypi or source code, to run unused packages detect
     pip3 install .
     ```
 2. Ensure the PyCG entrypoint is in PATH:
-   ```bash
-    PATH="$HOME/.local/bin:$PATH"
-   ```
-
-## Use PyTrim inside a Docker container
-
-1. Install `docker` (https://docs.docker.com/engine/install/)
-
-2. Clone this repository:
-      ```bash
-      git clone https://github.com/TrimTeam/PyTrim.git
-      ```
-
-3. Enter the source code directory:
-
-      ```bash
-      cd PyTrim
-      ```
-
-4.  Build docker image:
+    For the change to be permanent, add the following line to your shell's configuration file (e.g., `~/.bashrc`, `~/.zshrc`):
     ```bash
-    docker build -t pytrim .
+    export PATH="$HOME/.local/bin:$PATH"
     ```
-
-5. Run docker container:
-    ```bash
-    docker run --rm -it -v /path/to/project:/project pytrim
-    ```
-
-    The Dockerfile is configured to:
-    - Set working directory to `/project`
-    - Mount your project at `/project`
-    - Open bash terminal by default (`CMD ["/bin/bash"]`)
-
-6. Then, you are ready to run pytrim:
-    ```bash
-    pytrim .
-    ```
-
+    After saving the file, restart your terminal or run `source ~/.bashrc` (or your respective config file) to apply the changes.
 
 ## Usage
 
 After installation, use the `pytrim` command:
 
 ```bash
-pytrim [-h] [-f FILE | -d DIRECTORY] [-u UNUSED_IMPORTS [UNUSED_IMPORTS ...]] [-r] [-o] [-pr] [-dp | -fd | -cg] [-v] [-V]
-              [--generate-mappings [GENERATE_MAPPINGS ...]] [--mappings-file MAPPINGS_FILE] [-e EXCLUDE [EXCLUDE ...]]
+pytrim [-h] [-f FILE] [-d DIRECTORY] [-u UNUSED_IMPORTS [UNUSED_IMPORTS ...]] [-r] [-o] [-pr] [-dp | -fd] [-v] [-V] 
+              [-gm [GENERATE_MAPPINGS ...]] [-mf MAPPINGS_FILE] [-e EXCLUDE [EXCLUDE ...]] 
               [project]
 ```
 
 ### Options
+- `-h, --help`: Show help message and exit
 - `-f FILE, --file FILE`: Process a single Python file
 - `-d DIRECTORY, --directory DIRECTORY`: Process all `.py` files in a directory
 - `-u UNUSED_IMPORTS [...], --unused-imports UNUSED_IMPORTS [...]`: List of unused imports/dependencies to remove (optional - will auto-detect if not specified)
-- `-r, --report`: Generate reports about trimmed packages in the `reports` folder
-- `-o, --output`: Create new debloated files in folder `output` instead of overwriting originals
+- `-r, --report`: Generate reports about trimmed packages in the `pytrim_reports` folder
+- `-o, --output`: Create new debloated files in folder `pytrim_output` instead of overwriting originals
 - `-pr, --pull-request`: Create a Git branch and GitHub Pull Request with changes
 - `-V, --version`: Show version information
 - `-v, --verbose`: Show detailed information about the trimming process.
 - `-dp, --deptry`: Use deptry to find unused imports (requires deptry installed).
 - `-fd, --fawltydeps`: Use fawltydeps to find unused dependencies (requires fawltydeps installed).
-- `-cg, --call-graph`: Use call graph analysis to find unused imports (requires PyCG installed).
-- `--generate-mappings`: Generate import mappings JSON file for specified packages (or use discovered packages if none specified).
-- `--mappings-file`: Use custom import mappings JSON file instead of built-in mappings.
+- `-gm, --generate-mappings`: Generate import mappings JSON file for specified packages (or use discovered packages if none specified), then run the full PyTrim analysis using the generated mappings.
+- `-mf, --mappings-file MAPPINGS_FILE`: Use custom import mappings JSON file instead of built-in mappings.
 - `-e, --exclude`: Exclude specific dependencies from the removal process.E.g. a transitive dependency that needs its version pinned.
 - `PROJECT`: Project root directory (default: current directory)
 
 ### Examples
+
+**Show help and all available options:**
+```bash
+pytrim --help
+```
 
 **Trim current project:**
 ```bash
@@ -152,30 +148,34 @@ pytrim -pr
 ### Default Mode
 Files are modified in place. Only files that need changes are updated.
 
-### Report Mode (`-r`)
-- **Trimmed files**: Saved to `output/` directory with `_trimmed` suffix
-- **Reports**: Generated in `reports/` directory with detailed analysis
+### Output Mode (`-o, --output`)
+Creates new debloated files in the `pytrim_output/` directory instead of overwriting the original files.
 
-### Pull Request Mode (`-pr`)
+### Report Mode (`-r, --report`)
+Generates detailed Markdown reports in the `pytrim_reports/` directory with analysis of trimmed packages and dependencies.
+
+### Pull Request Mode (`-pr, --pull-request`)
 - Files modified in place
-- Creates Git branch with timestamp
+- Creates Git branch with timestamp (format: `debloat/YYYYMMDDHHMMSS`)
 - Generates `project_report.md` in project root
-- Automatically creates GitHub Pull Request
+- Automatically creates GitHub Pull Request with the changes (requires `gh` CLI)
+- **Requirements**: Git repository, `git` and `gh` CLI tools installed
+
+### Combined Modes
+You can combine output modes:
+- `-r -o`: Generate reports AND save debloated files to `pytrim_output/`
+- `-r -pr`: Generate reports AND create pull request
+- All modes can be combined as needed
 
 ## Development
 
-For development setup, contributing guidelines, and architecture details, see [DEV.md](DEV.md).
+For development setup, contributing guidelines, and architecture details, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Requirements
 
 - Python 3.10+
-- `tomli` (for Python < 3.11, automatically installed)
-- `tqdm`
-- `fawltydeps`
-- `pkginfo`
-- `flask`
-- `toml`
-- `colorama`
+- `git` - Required for version control operations
+- `gh` CLI - Required for pull request creation (`-pr` flag)
 
 ## License
 
@@ -183,10 +183,9 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## Contributing
 
-Contributions are welcome! Please see [DEV.md](DEV.md) for detailed development setup and contribution guidelines.
+Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for development setup, contribution guidelines, and project architecture details.
 
 ## Support
 
 - **Issues**: [GitHub Issues](https://github.com/TrimTeam/PyTrim/issues)
-- **Documentation**:
 - **Source Code**: [GitHub](https://github.com/TrimTeam/PyTrim)

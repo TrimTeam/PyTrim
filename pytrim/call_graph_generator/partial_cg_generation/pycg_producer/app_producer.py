@@ -45,6 +45,7 @@ class CallGraphGenerator:
             self._unlink_callgraph(cg_path)
         except CallGraphGeneratorError:
             self._produce_error()
+            sys.exit("Call graph generation failed")
         finally:
             return self.output
 
@@ -54,18 +55,10 @@ class CallGraphGenerator:
     def _generate_callgraph(self, package_path):
         # call pycg using `package`
         files_list = self._get_python_files(package_path)
-        print(files_list)
-        # x = []
-        # for i in files_list:
-        #     if "/docs/" not in i:
-        #         x.append(i)
-        # files_list = x
-        # get metrics from the files list
         self.num_files = len(files_list)
         self.loc = self._get_lines_of_code(files_list)
         # if the package path contains an init file
         # then the package is its parent
-        print(files_list)
         cmd = [
             sys.executable,
             "-m",
@@ -86,7 +79,6 @@ class CallGraphGenerator:
             "--output",
             self.out_file.as_posix(),
         ] + files_list
-        print(cmd)
         try:
             process1 = sp.Popen(cmd, stdout=sp.PIPE, stderr=sp.PIPE)
             pid = process1.pid
@@ -98,7 +90,9 @@ class CallGraphGenerator:
 
         if not self.out_file.exists():
             self._format_error("generation", err.decode("utf-8"))
-            raise CallGraphGeneratorError()
+            print(err.decode("utf-8"))
+            print("Exiting due to error in call graph generation.")
+            sys.exit(1)   
 
         for l in err.decode("utf-8").splitlines():
             if l.strip().startswith("secs"):

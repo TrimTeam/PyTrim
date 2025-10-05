@@ -142,8 +142,8 @@ class GeneralConfigRemover(BaseRemover):
 
                 # Remove individual packages from the line (for multi-package lines)
                 original_modified = modified_line
-                modified_line = remove_package_from_line(ln, unused, preserve_comma)
-
+                # Split line by '#' to remove comments
+                modified_line = remove_package_from_line(ln.split('#')[0], unused, preserve_comma)
                 # If the line was actually modified and it's now empty, skip it
                 if modified_line.strip() == "" and original_modified.strip() != "":
                     i += 1

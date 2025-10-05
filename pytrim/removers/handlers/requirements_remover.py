@@ -35,10 +35,6 @@ class RequirementsRemover(BaseRemover):
             # Handle regular requirements files
             modified_lines = self._handle_regular_requirements(lines, unused)
             
-            # For .in files, if content was modified, attempt to regenerate the .txt file
-            if file_path.suffix == ".in" and modified_lines != lines:
-                self._regenerate_txt_file(file_path, modified_lines)
-            
             return modified_lines
 
     def _handle_regular_requirements(
