@@ -19,7 +19,7 @@ with open(version_file) as f:
 
 setup(
     name="pytrim",
-    version=version.get("__version__", "0.1.2"),
+    version=version.get("__version__", "0.2.0"),
     description="Auto-detect and trim unused dependencies from Python projects",
     long_description=long_description,
     long_description_content_type="text/markdown",
