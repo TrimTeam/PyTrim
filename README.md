@@ -12,20 +12,18 @@ PyTrim helps keep your codebase clean by automatically removing unused dependenc
 ## Features
 
 - **Auto-Detection**: Automatically finds unused dependencies without manual specification
-- **Multi-format Support**: Handles Python files, requirements.txt, pyproject.toml, setup.py, poetry.lock, Pipfile, YAML files, Docker files, and more
-- **Intelligent Analysis**: Uses AST parsing to accurately identify unused imports and dependencies
-- **Modular Architecture**: Clean, extensible design with separate extractors and removers for different file types
+- **Multi-format Support**: Handles Python files, requirements.txt, pyproject.toml, setup.py, poetry.lock, Pipfile, YAML files, Dockerfiles, and more
+- **Modular Architecture**: Extensible design with separate extractors and removers for different file types
 - **CLI Interface**: Easy-to-use command line interface with smart defaults
 - **Report Generation**: Creates detailed Markdown reports of changes
 - **Git Integration**: Automatic branch creation and PR generation
-- **Professional Package**: Ready for PyPI distribution with proper setup and documentation
 
 ## Installation
 
-### Docker (Recommended for most users)
+### Docker (Recommended)
 
 1.  **Install Docker**  
-    Follow the official instructions to install Docker on your system: https://docs.docker.com/engine/install/
+    Follow the official instructions: https://docs.docker.com/engine/install/
 
 2.  **Navigate to Your Project's Source Code Directory**  
     In your terminal, change to the root directory of the source code you want to analyze.
@@ -34,17 +32,38 @@ PyTrim helps keep your codebase clean by automatically removing unused dependenc
     ```
 
 3.  **Run the PyTrim Container**  
-    This command will download the official PyTrim image from Docker Hub, start a container, and mount your local project directory into the container's `/project` workspace.
 
-    ```bash
-    # For Linux and macOS
-    docker run --rm -it -v "$(pwd):/project" karakatsanis/pytrim
-    ```
-    ```bash
-    # For Windows (PowerShell)
-    docker run --rm -it -v "${PWD}:/project" karakatsanis/pytrim
-    ```
-    **Important:** Make sure to replace `/path/to/your/source` with the full, absolute path to the project directory you want to analyze.
+       **For Linux/macOS:**
+       ```bash
+       docker run --rm -it -v "$(pwd):/project" karakatsanis/pytrim
+       ```
+    
+       **For Windows (PowerShell):**
+       ```bash
+       docker run --rm -it -v "${PWD}:/project" karakatsanis/pytrim
+       ```
+    
+    This command:
+    - Downloads the PyTrim image from Docker Hub (first time only)
+    - Mounts your current directory into the container at `/project`
+    - Drops you into a shell inside the container
+
+4. **Run PyTrim inside the container**
+   ```bash
+   pytrim
+   ```
+
+   You can use any PyTrim commands and options. For example:
+   ```bash
+   pytrim --help
+   pytrim -r
+   pytrim -d src/
+   ```
+
+5. **Exit the container**
+   ```bash
+   exit
+   ```
 
 ### PyPI
 ```bash
@@ -54,13 +73,14 @@ pip install pytrim
 **Note**: Call graph analysis (the default detection method) requires the external tool PyCG. For the simplest experience with all features enabled, we recommend using the Docker image.
 
 #### Install PyCG (optional)
-When pytrim is installed from Pypi or source code, to run unused packages detection with call graph you need to install pycg.
+Call graph analysis is the default detection method, but it requires the external tool `PyCG`. 
+If you install `PyTrim` via PyPI, you must install `PyCG` manually for this feature to work. 
 
-1. Install PyCG from source:
+1. Install PyCG from source: 
     ```bash
-    git clone https://github.com/gdrosos/PyCG.git && \
-    cd PyCG && \
-    pip3 install .
+    git clone https://github.com/gdrosos/PyCG.git
+    cd PyCG
+    pip install .
     ```
 2. Ensure the PyCG entrypoint is in PATH:
     For the change to be permanent, add the following line to your shell's configuration file (e.g., `~/.bashrc`, `~/.zshrc`):
@@ -87,13 +107,13 @@ pytrim [-h] [-f FILE] [-d DIRECTORY] [-u UNUSED_IMPORTS [UNUSED_IMPORTS ...]] [-
 - `-r, --report`: Generate reports about trimmed packages in the `pytrim_reports` folder
 - `-o, --output`: Create new debloated files in folder `pytrim_output` instead of overwriting originals
 - `-pr, --pull-request`: Create a Git branch and GitHub Pull Request with changes
-- `-V, --version`: Show version information
 - `-v, --verbose`: Show detailed information about the trimming process.
+- `-V, --version`: Show version information
 - `-dp, --deptry`: Use deptry to find unused imports (requires deptry installed).
 - `-fd, --fawltydeps`: Use fawltydeps to find unused dependencies (requires fawltydeps installed).
 - `-gm, --generate-mappings`: Generate import mappings JSON file for specified packages (or use discovered packages if none specified), then run the full PyTrim analysis using the generated mappings.
 - `-mf, --mappings-file MAPPINGS_FILE`: Use custom import mappings JSON file instead of built-in mappings.
-- `-e, --exclude`: Exclude specific dependencies from the removal process.E.g. a transitive dependency that needs its version pinned.
+- `-e, --exclude`: Exclude specific dependencies from the removal process. E.g., a transitive dependency that needs its version pinned.
 - `PROJECT`: Project root directory (default: current directory)
 
 ### Examples
@@ -108,7 +128,7 @@ pytrim --help
 pytrim
 ```
 
-**Auto-detect unused dependencies and remove them from a project:**
+**Auto-detect and remove unused dependencies from a project:**
 ```bash
 pytrim path/to/project/
 ```
@@ -158,7 +178,7 @@ Generates detailed Markdown reports in the `pytrim_reports/` directory with anal
 - Files modified in place
 - Creates Git branch with timestamp (format: `debloat/YYYYMMDDHHMMSS`)
 - Generates `project_report.md` in project root
-- Automatically creates GitHub Pull Request with the changes (requires `gh` CLI)
+- Automatically creates a GitHub Pull Request with the changes (requires `gh` CLI)
 - **Requirements**: Git repository, `git` and `gh` CLI tools installed
 
 ### Combined Modes
@@ -167,19 +187,11 @@ You can combine output modes:
 - `-r -pr`: Generate reports AND create pull request
 - All modes can be combined as needed
 
-## Development
-
-For development setup, contributing guidelines, and architecture details, see [CONTRIBUTING.md](CONTRIBUTING.md).
-
 ## Requirements
 
 - Python 3.10+
 - `git` - Required for version control operations
 - `gh` CLI - Required for pull request creation (`-pr` flag)
-
-## License
-
-MIT License - see [LICENSE](LICENSE) file for details.
 
 ## Contributing
 
@@ -189,3 +201,7 @@ Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for dev
 
 - **Issues**: [GitHub Issues](https://github.com/TrimTeam/PyTrim/issues)
 - **Source Code**: [GitHub](https://github.com/TrimTeam/PyTrim)
+
+## License
+
+MIT License - see [LICENSE](LICENSE) file for details.
