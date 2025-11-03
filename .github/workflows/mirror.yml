@@ -1,0 +1,25 @@
+name: Mirror to SecOPERA
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch: # Allows you to run this manually
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Required for a full mirror
+
+      - name: Push mirror to SecOPERA
+        env:
+          GH_TOKEN: ${{ secrets.SECOPERA_PAT }}
+        run: |
+          git remote add mirror https://x-access-token:${GH_TOKEN}@github.com/EU-SecOPERA/PyTrim.git
+          git push --force --mirror mirror
+
